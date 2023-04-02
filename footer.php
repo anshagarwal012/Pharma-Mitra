@@ -1,54 +1,160 @@
-<!-- Footer Area -->
-<footer>
-    <div class="footer-bottom bg-white">
-        <div class="container-fluid px-5">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="footer-logo">
-                        <a href="/">
-                            <img src="assets/svg/logo.svg" alt="Olive Venture Partners Logo">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-2 my-auto">
-                    <div class="footer-logo text-center">
-                        <div class="row d-flex justify-content-center">
-                            <div class="d-inline mt-4 mt-md-0">
-                                <a class="social-team" target="_blank" href="https://www.linkedin.com/in/olive-venture-partners-a59252264/"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                            <div class="d-inline mt-4 mt-md-0">
-                                <a class="social-team" target="_blank" href="https://twitter.com/olive_venture"><i class="fa fa-twitter"></i></a>
-                            </div>
-                            <div class="d-inline mt-4 mt-md-0">
-                                <a class="social-team" target="_blank" href="https://instagram.com/oliveventurepartners"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 my-auto">
-                    <div class="copyright-text blog-content">
-                        <p>Copyright 2023 | Designed & Developed By <a href="https://www.weblytechnolab.com"><span> Webly Technolab</span></a></p>
-                    </div>
-                </div>
-            </div>
-            <!-- Scroll To Top -->
-            <a href="#" class="scrollup"><i class="fa fa-angle-double-up"></i></a>
-        </div>
-    </div>
-</footer>
-<!-- /End Footer Area -->
-</div><!-- /End Main Site -->
-<!-- Js File-->
-<script src="assets/js/jquery.v3.4.1.min.js"></script>
-<script src="assets/js/scrollIt.min.js"></script>
-<script src="assets/js/main.js"></script>
-<script src="assets/js/typewriter.js"></script>
-<script src="assets/js/nav.js"></script>
-<!--<script src="assets/js/bootstrap.min.js"></script>-->
-<!--<script src="assets/js/jquery.slicknav.min.js"></script>-->
-<!--<script src="assets/js/owl.carousel.min.js"></script>-->
-<!--<script src="assets/js/isotope.pkgd.min.js"></script>-->
-<!--<script src="assets/js/plugins.js"></script>-->
-</body>
+ <!-- CALL TO ACTION START (call-to-action-6) -->
+ <div class="ltn__call-to-action-area call-to-action-6 before-bg-bottom" data-bs-bg="img/1.jpg--">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-12">
+                 <div class="call-to-action-inner call-to-action-inner-6 ltn__secondary-bg position-relative text-center---">
+                     <div class="coll-to-info text-color-white">
+                         <h1>Lorem Ipsum is simply dummy text <br>of the and typesetting industry.</h1>
+                     </div>
+                     <div class="btn-wrapper">
+                         <a class="btn btn-effect-3 btn-white" href="#">Explore Products <i class="icon-next"></i></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- CALL TO ACTION END -->
 
-</html>
+ <!-- FOOTER AREA START -->
+ <footer class="ltn__footer-area  ">
+     <div class="footer-top-area  section-bg-2 plr--5">
+         <div class="container-fluid">
+             <div class="row justify-content-between">
+                 <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                     <div class="footer-widget footer-about-widget">
+                         <div class="footer-logo">
+                             <div class="site-logo">
+                                 <img src="assets/img/logo/trans-bg.png" alt="Logo">
+                             </div>
+                         </div>
+                         <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
+                         <div class="footer-address">
+                             <ul>
+                                 <li>
+                                     <div class="footer-address-icon">
+                                         <i class="icon-placeholder"></i>
+                                     </div>
+                                     <div class="footer-address-info">
+                                         <p>Lucknow, India</p>
+                                     </div>
+                                 </li>
+                                 <li>
+                                     <div class="footer-address-icon">
+                                         <i class="icon-call"></i>
+                                     </div>
+                                     <div class="footer-address-info">
+                                         <p><a href="tel:919870636608">+91 987-063-6608</a></p>
+                                     </div>
+                                 </li>
+                                 <li>
+                                     <div class="footer-address-icon">
+                                         <i class="icon-mail"></i>
+                                     </div>
+                                     <div class="footer-address-info">
+                                         <p><a href="mailto:contact.us@pharmamitra.in">contact.us@pharmamitra.in</a></p>
+                                     </div>
+                                 </li>
+                             </ul>
+                         </div>
+                         <div class="ltn__social-media mt-20">
+                             <ul>
+                                 <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                 <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                 <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                     <div class="footer-widget footer-menu-widget clearfix">
+                         <h4 class="footer-title">Menus</h4>
+                         <div class="footer-menu">
+                             <ul>
+                                 <li><a href="/">Home</a></li>
+                                 <li><a href="/about">About</a></li>
+                                 <li><a href="/contact">Contact</a></li>
+                                 <li><a href="/blood-bank">Blood Bank</a></li>
+                                 <li><a href="/shop">Products</a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                     <div class="footer-widget footer-menu-widget clearfix">
+                         <h4 class="footer-title">Menus</h4>
+                         <div class="footer-menu">
+                             <ul>
+                                 <li><a href="/">Home</a></li>
+                                 <li><a href="/about">About</a></li>
+                                 <li><a href="/contact">Contact</a></li>
+                                 <li><a href="/blood-bank">Blood Bank</a></li>
+                                 <li><a href="/shop">Products</a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-xl-3 col-md-6 col-sm-12 col-12">
+                     <div class="footer-widget footer-newsletter-widget">
+                         <h4 class="footer-title">Newsletter</h4>
+                         <p>Subscribe to our weekly Newsletter and receive updates via email.</p>
+                         <div class="footer-newsletter">
+                             <form action="#">
+                                 <input type="email" name="email" placeholder="Email*">
+                                 <div class="btn-wrapper">
+                                     <button class="theme-btn-1 btn" type="submit"><i class="fas fa-location-arrow"></i></button>
+                                 </div>
+                             </form>
+                         </div>
+                         <h5 class="mt-30">We Accept</h5>
+                         <img src="assets/img/icons/payment-4.png" alt="Payment Image">
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="ltn__copyright-area ltn__copyright-2 section-bg-7  plr--5">
+         <div class="container-fluid ltn__border-top-2">
+             <div class="row">
+                 <div class="col-md-6 col-12">
+                     <div class="ltn__copyright-design clearfix">
+                         <p>All Rights Reserved @ Pharma Mitra <span class="current-year"></span></p>
+                     </div>
+                 </div>
+                 <div class="col-md-6 col-12 align-self-center">
+                     <div class="ltn__copyright-menu text-end">
+                         <ul>
+                             <li><a href="#">Terms & Conditions</a></li>
+                             <li><a href="#">Claim</a></li>
+                             <li><a href="#">Privacy & Policy</a></li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </footer>
+ <!-- FOOTER AREA END -->
+ </div>
+ <!-- Body main wrapper end -->
+
+ <!-- preloader area start -->
+ <div class="preloader d-none" id="preloader">
+     <div class="preloader-inner">
+         <div class="spinner">
+             <div class="dot1"></div>
+             <div class="dot2"></div>
+         </div>
+     </div>
+ </div>
+ <!-- preloader area end -->
+
+ <!-- All JS Plugins -->
+ <script src="assets/js/plugins.js"></script>
+ <!-- Main JS -->
+ <script src="assets/js/main.js"></script>
+
+ </body>
+
+ </html>

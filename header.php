@@ -16,7 +16,7 @@
     <!-- Stylesheets -->
 
     <!-- Place favicon.png in the root directory -->
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
     <!-- Font Icons css -->
     <link rel="stylesheet" href="assets/css/font-icons.css">
     <!-- plugins css -->
@@ -39,7 +39,7 @@
                         <div class="ltn__top-bar-menu">
                             <ul>
                                 <li><a href="mailto:contact.us@pharmamitra.in"><i class="icon-mail"></i> contact.us@pharmamitra.in</a></li>
-                                <li><a href="locations.html"><i class="icon-placeholder"></i> Lucknow, India</a></li>
+                                <li><a href="#"><i class="icon-placeholder"></i> Lucknow, India</a></li>
                             </ul>
                         </div>
                     </div>
@@ -127,10 +127,10 @@
                                             <li>
                                                 <a href="#"><i class="icon-user"></i></a>
                                                 <ul>
-                                                    <li><a href="login.html">Sign in</a></li>
-                                                    <li><a href="register.html">Register</a></li>
-                                                    <li><a href="account.html">My Account</a></li>
-                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                    <li><a href="#">Sign in</a></li>
+                                                    <li><a href="#">Register</a></li>
+                                                    <li><a href="#">My Account</a></li>
+                                                    <li><a href="#">Wishlist</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -169,106 +169,11 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <!-- <li class="menu-icon"><a href="#">Home</a>
-                                            <ul class="sub-menu menu-pages-img-show ltn__sub-menu-col-2---">
-                                                <li>
-                                                    <a href="index.html">Home Style 01</a>
-                                                    <img src="img/home-demos/home-1.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-2.html">Home Style 02</a>
-                                                    <img src="img/home-demos/home-2.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-3.html">Home Style 03</a>
-                                                    <img src="img/home-demos/home-3.jpg" alt="#">
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-icon"><a href="#">About</a>
-                                            <ul>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="service.html">Services</a></li>
-                                                <li><a href="service-details.html">Service Details</a></li>
-                                                <li><a href="portfolio.html">Gallery</a></li>
-                                                <li><a href="portfolio-2.html">Gallery - 02</a></li>
-                                                <li><a href="portfolio-details.html">Gallery Details</a></li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="locations.html">Google Map Locations</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-icon"><a href="#">Shop</a>
-                                            <ul>
-                                                <li><a href="shop.html">Shop</a></li>
-                                                <li><a href="shop-grid.html">Shop Grid</a></li>
-                                                <li><a href="shop-left-sidebar.html">Shop Left sidebar</a></li>
-                                                <li><a href="shop-right-sidebar.html">Shop right sidebar</a></li>
-                                                <li><a href="product-details.html">Shop details </a></li>
-                                                <li><a href="#">Other Pages <span class="float-right">>></span></a>
-                                                    <ul>
-                                                        <li><a href="cart.html">Cart</a></li>
-                                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                                        <li><a href="checkout.html">Checkout</a></li>
-                                                        <li><a href="order-tracking.html">Order Tracking</a></li>
-                                                        <li><a href="account.html">My Account</a></li>
-                                                        <li><a href="login.html">Sign in</a></li>
-                                                        <li><a href="register.html">Register</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-icon"><a href="#">News</a>
-                                            <ul>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="blog-grid.html">News Grid</a></li>
-                                                <li><a href="blog-left-sidebar.html">News Left sidebar</a></li>
-                                                <li><a href="blog-right-sidebar.html">News Right sidebar</a></li>
-                                                <li><a href="blog-details.html">News details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-icon"><a href="#">Pages</a>
-                                            <ul class="mega-menu">
-                                                <li><a href="#">Inner Pages</a>
-                                                    <ul>
-                                                        <li><a href="portfolio.html">Gallery</a></li>
-                                                        <li><a href="portfolio-2.html">Gallery - 02</a></li>
-                                                        <li><a href="portfolio-details.html">Gallery Details</a></li>
-                                                        <li><a href="team.html">Team</a></li>
-                                                        <li><a href="team-details.html">Team Details</a></li>
-                                                        <li><a href="faq.html">FAQ</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Inner Pages</a>
-                                                    <ul>
-                                                        <li><a href="history.html">History</a></li>
-                                                        <li><a href="contact.html">Appointment</a></li>
-                                                        <li><a href="locations.html">Google Map Locations</a></li>
-                                                        <li><a href="404.html">404</a></li>
-                                                        <li><a href="contact.html">Contact</a></li>
-                                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Shop Pages</a>
-                                                    <ul>
-                                                        <li><a href="shop.html">Shop</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Shop Left sidebar</a></li>
-                                                        <li><a href="shop-right-sidebar.html">Shop right sidebar</a></li>
-                                                        <li><a href="shop-grid.html">Shop Grid</a></li>
-                                                        <li><a href="product-details.html">Shop details </a></li>
-                                                        <li><a href="cart.html">Cart</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="shop.html"><img src="img/banner/menu-banner-1.png" alt="#"></a>
-                                                </li>
-                                            </ul>
-                                        </li> -->
                                         <li><a href="/">Home</a></li>
                                         <li><a href="/about">About</a></li>
                                         <li><a href="/contact">Contact</a></li>
                                         <li><a href="/blood-bank">Blood Bank</a></li>
-                                        <li><a href="/shop">Products</a></li>
+                                        <li><a href="/shop">Shop</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -280,3 +185,88 @@
         <!-- header-bottom-area end -->
     </header>
     <!-- HEADER AREA END -->
+
+    <div class="mobile-header-menu-fullwidth mb-30 d-block d-lg-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Mobile Menu Button -->
+                    <div class="mobile-menu-toggle d-lg-none">
+                        <span>MENU</span>
+                        <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">
+                            <svg viewBox="0 0 800 600">
+                                <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
+                                <path d="M300,320 L540,320" id="middle"></path>
+                                <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE MENU END -->
+
+    <!-- Utilize Cart Menu Start -->
+    <div id="ltn__utilize-cart-menu" class="ltn__utilize ltn__utilize-cart-menu">
+        <div class="ltn__utilize-menu-inner ltn__scrollbar">
+            <div class="ltn__utilize-menu-head">
+                <span class="ltn__utilize-menu-title">Cart</span>
+                <button class="ltn__utilize-close">×</button>
+            </div>
+            <div class="mini-cart-product-area ltn__scrollbar">
+                <div class="mini-cart-item clearfix">
+                    <div class="mini-cart-img">
+                        <a href="#"><img src="img/product/1.png" alt="Image"></a>
+                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
+                    </div>
+                    <div class="mini-cart-info">
+                        <h6><a href="#">Antiseptic Spray</a></h6>
+                        <span class="mini-cart-quantity">1 x $65.00</span>
+                    </div>
+                </div>
+                <div class="mini-cart-item clearfix">
+                    <div class="mini-cart-img">
+                        <a href="#"><img src="img/product-2/2.png" alt="Image"></a>
+                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
+                    </div>
+                    <div class="mini-cart-info">
+                        <h6><a href="#">Digital Stethoscope</a></h6>
+                        <span class="mini-cart-quantity">1 x $85.00</span>
+                    </div>
+                </div>
+                <div class="mini-cart-item clearfix">
+                    <div class="mini-cart-img">
+                        <a href="#"><img src="img/product/3.png" alt="Image"></a>
+                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
+                    </div>
+                    <div class="mini-cart-info">
+                        <h6><a href="#">Cosmetic Containers</a></h6>
+                        <span class="mini-cart-quantity">1 x $92.00</span>
+                    </div>
+                </div>
+                <div class="mini-cart-item clearfix">
+                    <div class="mini-cart-img">
+                        <a href="#"><img src="img/product/4.png" alt="Image"></a>
+                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
+                    </div>
+                    <div class="mini-cart-info">
+                        <h6><a href="#">Thermometer Gun</a></h6>
+                        <span class="mini-cart-quantity">1 x $68.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mini-cart-footer">
+                <div class="mini-cart-sub-total">
+                    <h5>Subtotal: <span>$310.00</span></h5>
+                </div>
+                <div class="btn-wrapper">
+                    <a href="#" class="theme-btn-1 btn btn-effect-1">View Cart</a>
+                    <a href="#" class="theme-btn-2 btn btn-effect-2">Checkout</a>
+                </div>
+                <p>Free Shipping on All Orders Over $100!</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Utilize Cart Menu End -->
