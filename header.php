@@ -1,5 +1,5 @@
 <?php
-// require('admin/db.php');
+require('admin/db.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -169,11 +169,11 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <li><a href="/">Home</a></li>
-                                        <li><a href="/about">About</a></li>
-                                        <li><a href="/contact">Contact</a></li>
-                                        <li><a href="/blood-bank">Blood Bank</a></li>
-                                        <li><a href="/shop">Shop</a></li>
+                                        <li><a href="./">Home</a></li>
+                                        <li><a href="./about">About</a></li>
+                                        <li><a href="./contact">Contact</a></li>
+                                        <li><a href="./blood-bank">Blood Bank</a></li>
+                                        <li><a href="./shop">Shop</a></li>
                                     </ul>
                                 </div>
                             </nav>
