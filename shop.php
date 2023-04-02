@@ -91,9 +91,9 @@ require('header.php'); ?>
                     <div class="ltn__pagination">
                         <ul>
                             <!-- <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li> -->
-                            <li class="active"><a href="/products">1</a></li>
-                            <li><a href="/products?page=20">2</a></li>
-                            <li><a href="/products?page=40">3</a></li>
+                            <li><a href="/shop">1</a></li>
+                            <li><a href="./shop?page=20">2</a></li>
+                            <li><a href="./shop?page=40">3</a></li>
                             <!-- <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li> -->
                         </ul>
                     </div>
