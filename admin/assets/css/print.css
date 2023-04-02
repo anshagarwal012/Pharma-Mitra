@@ -1,0 +1,14 @@
+@page{
+    size: A4;
+    margin: 20px 0;
+}
+#dis {
+display: none!important;
+visibility: none !important;    
+}
+#t{
+    text-decoration: none !important;
+}
+#invoice{
+    font-size: 3.5em!important;
+}
