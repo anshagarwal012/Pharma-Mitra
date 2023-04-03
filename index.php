@@ -18,194 +18,22 @@ require('header.php'); ?>
                             <!-- Submenu Column - unlimited -->
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-shopping-bags"></i>Health Care </a>
-                                <!-- <ul class="ltn__category-submenu ltn__category-column-5">
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Health Care</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches Clutches Clutches Clutches </a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">First Aid</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Surgical Product</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Diagnostic Product</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Laboratory Product</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                </ul> -->
                             </li>
                             <!-- Submenu Column - 4 -->
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-options"></i>First Aid </a>
-                                <!-- <ul class="ltn__category-submenu ltn__category-column-4">
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                </ul> -->
                             </li>
                             <!-- Submenu Column - 3 -->
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-award"></i>Surgical Product</a>
-                                <!-- <ul class="ltn__category-submenu ltn__category-column-3">
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                </ul> -->
                             </li>
                             <!-- Submenu Column - 2 -->
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-user"></i>Diagnostic Product</a>
-                                <!-- <ul class="ltn__category-submenu ltn__category-column-2">
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                </ul> -->
                             </li>
                             <!-- Submenu -->
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-shopping-cart"></i>Laboratory Product</a>
-                                <!-- <ul class="ltn__category-submenu">
-                                    <li class="ltn__category-submenu-title ltn__category-menu-drop"><a href="#">Handbags</a>
-                                        <ul class="ltn__category-submenu-children">
-                                            <li><a href="#">Clutches</a></li>
-                                            <li><a href="#">Cross Body</a></li>
-                                            <li><a href="#">Satchels</a></li>
-                                            <li><a href="#">Sholuder</a></li>
-                                            <li><a href="#">Toter</a></li>
-                                        </ul>
-                                    </li>
-                                </ul> -->
                             </li>
                             <li class="ltn__category-menu-more-item-parent">
                                 <a class="rx-default">
@@ -224,7 +52,7 @@ require('header.php'); ?>
             <div class="col-lg-9">
                 <div class="ltn__slide-active-2 slick-slide-arrow-1 slick-slide-dots-1">
                     <!-- ltn__slide-item -->
-                    <div class="ltn__slide-item ltn__slide-item-10 section-bg-1 bg-image" data-bs-bg="img/slider/61.jpg">
+                    <div class="ltn__slide-item ltn__slide-item-10 section-bg-1 bg-image" data-bs-bg="admin/uploads/medicine.png">
                         <div class="ltn__slide-item-inner">
                             <div class="container">
                                 <div class="row">
@@ -253,7 +81,7 @@ require('header.php'); ?>
                         </div>
                     </div>
                     <!-- ltn__slide-item -->
-                    <div class="ltn__slide-item ltn__slide-item-10 section-bg-1 bg-image" data-bs-bg="img/slider/62.jpg">
+                    <div class="ltn__slide-item ltn__slide-item-10 section-bg-1 bg-image" data-bs-bg="admin/uploads/medicine.png">
                         <div class="ltn__slide-item-inner">
                             <div class="container">
                                 <div class="row">
@@ -287,7 +115,6 @@ require('header.php'); ?>
 </div>
 <!-- SLIDER AREA END -->
 
-
 <!-- FEATURE AREA START ( Feature - 3) -->
 <div class="ltn__feature-area mt-35 mt--65---">
     <div class="container">
@@ -300,7 +127,7 @@ require('header.php'); ?>
                         </div>
                         <div class="ltn__feature-info">
                             <h4>Free shipping</h4>
-                            <p>On all orders over $49.00</p>
+                            <p>On all orders over ₹49.00</p>
                         </div>
                     </div>
                     <div class="ltn__feature-item ltn__feature-item-8">
@@ -363,28 +190,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/11.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -401,35 +210,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/7.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -445,8 +236,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -455,28 +246,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/12.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -493,82 +266,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/8.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/10.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -584,35 +292,20 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/9.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -629,38 +322,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -676,35 +348,47 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">-19%</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li class="review-total"> <a href="#"> (24)</a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
+                                            <div class="product-price">
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/10.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -720,8 +404,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -730,72 +414,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/5.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Blue Hand Gloves</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -812,38 +434,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/7.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -857,37 +458,22 @@ require('header.php'); ?>
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/11.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -904,13 +490,38 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
+                                            <div class="product-price">
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!--  -->
                             </div>
                         </div>
                     </div>
@@ -921,28 +532,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/8.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -959,35 +552,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/10.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1003,8 +578,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -1013,28 +588,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/5.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1051,82 +608,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/9.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1142,35 +634,20 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/8.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1187,38 +664,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/10.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1234,35 +690,47 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">-19%</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li class="review-total"> <a href="#"> (24)</a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
+                                            <div class="product-price">
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/10.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1278,8 +746,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -1288,72 +756,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/5.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Blue Hand Gloves</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1370,38 +776,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/7.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1415,37 +800,22 @@ require('header.php'); ?>
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/11.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1462,13 +832,38 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
+                                            <div class="product-price">
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!--  -->
                             </div>
                         </div>
                     </div>
@@ -1479,28 +874,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1517,35 +894,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/12.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1561,8 +920,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -1571,28 +930,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/8.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1609,82 +950,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/5.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/9.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1700,35 +976,20 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/11.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1745,38 +1006,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1792,35 +1032,47 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">-19%</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li class="review-total"> <a href="#"> (24)</a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
+                                            <div class="product-price">
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/10.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1836,8 +1088,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -1846,72 +1098,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/5.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Blue Hand Gloves</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1928,38 +1118,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/7.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1973,37 +1142,22 @@ require('header.php'); ?>
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/11.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2020,13 +1174,38 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
+                                            <div class="product-price">
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!--  -->
                             </div>
                         </div>
                     </div>
@@ -2037,28 +1216,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product/3.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2075,35 +1236,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/5.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2119,8 +1262,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -2129,28 +1272,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/2.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2167,82 +1292,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/8.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2258,35 +1318,20 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2303,38 +1348,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2350,35 +1374,47 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">-19%</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li class="review-total"> <a href="#"> (24)</a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
+                                            <div class="product-price">
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/10.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2394,8 +1430,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -2404,72 +1440,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/5.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Blue Hand Gloves</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2486,38 +1460,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/7.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2531,37 +1484,22 @@ require('header.php'); ?>
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/11.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2578,13 +1516,38 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
+                                            <div class="product-price">
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!--  -->
                             </div>
                         </div>
                     </div>
@@ -2595,28 +1558,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/7.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2633,35 +1578,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/10.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2677,8 +1604,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -2687,28 +1614,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/5.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2725,82 +1634,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/9.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/9.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2816,35 +1660,20 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2861,38 +1690,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/12.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2908,35 +1716,47 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$78.00</span>
-                                                <del>$85.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">-19%</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li class="review-total"> <a href="#"> (24)</a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
+                                            <div class="product-price">
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/10.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2952,8 +1772,8 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$75.00</span>
-                                                <del>$92.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
@@ -2962,72 +1782,10 @@ require('header.php'); ?>
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/5.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Blue Hand Gloves</a></h2>
-                                            <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -3044,38 +1802,17 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/7.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -3089,37 +1826,22 @@ require('header.php'); ?>
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
                                             <div class="product-price">
-                                                <span>$150.00</span>
-                                                <del>$180.00</del>
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a href="#"><img src="img/product-2/11.png" alt="#"></a>
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
                                                     <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-hover-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <i class="fas fa-shopping-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                                            <i class="far fa-heart"></i></a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -3136,13 +1858,38 @@ require('header.php'); ?>
                                             </div>
                                             <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                                             <div class="product-price">
-                                                <span>$32.00</span>
-                                                <del>$46.00</del>
+                                                <span>₹32.00</span>
+                                                <del>₹46.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
+                                            <div class="product-price">
+                                                <span>₹78.00</span>
+                                                <del>₹85.00</del>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!--  -->
                             </div>
                         </div>
                     </div>
@@ -3204,7 +1951,7 @@ require('header.php'); ?>
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-md-6 col-sm-4">
-                <!-- <img src="img/banner/15.png" alt="#"> -->
+                <img src="admin/uploads/medicine.png" alt="#">
             </div>
             <div class="col-lg-5 col-md-6 col-sm-8">
                 <div class="call-to-action-inner text-color-white--- text-center---">
@@ -3213,7 +1960,7 @@ require('header.php'); ?>
                         <h1 class="section-title">Buy all your medicines <br> at 50% offer</h1>
                         <p>Get extra cashback with great deals and discounts </p>
                     </div>
-                    <div class="ltn__countdown ltn__countdown-3 bg-white--" data-countdown="2021/12/28"></div>
+                    <div class="ltn__countdown ltn__countdown-3 bg-white--" data-countdown="2023/5/01"></div>
                     <div class="btn-wrapper animated">
                         <a href="#" class="theme-btn-1 btn btn-effect-1 text-uppercase">Shop now</a>
                         <a href="#" class="ltn__secondary-color text-decoration-underline">Deal of The Day</a>
@@ -3240,28 +1987,10 @@ require('header.php'); ?>
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ltn__product-item ltn__product-item-3 text-center">
                     <div class="product-img">
-                        <a href="#"><img src="img/product-2/1.png" alt="#"></a>
+                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                         <div class="product-badge">
                             <ul>
                                 <li class="sale-badge">New</li>
-                            </ul>
-                        </div>
-                        <div class="product-hover-action">
-                            <ul>
-                                <li>
-                                    <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                        <i class="far fa-heart"></i></a>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -3277,82 +2006,21 @@ require('header.php'); ?>
                         </div>
                         <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
-                            <span>$32.00</span>
-                            <del>$46.00</del>
+                            <span>₹32.00</span>
+                            <del>₹46.00</del>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ltn__product-item -->
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ltn__product-item ltn__product-item-3 text-center">
                     <div class="product-img">
-                        <a href="#"><img src="img/product-2/2.png" alt="#"></a>
-                        <div class="product-hover-action">
-                            <ul>
-                                <li>
-                                    <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                        <i class="far fa-heart"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-ratting">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2 class="product-title"><a href="#">Digital Stethoscope</a></h2>
-                        <div class="product-price">
-                            <span>$25.00</span>
-                            <del>$35.00</del>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ltn__product-item -->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                <div class="ltn__product-item ltn__product-item-3 text-center">
-                    <div class="product-img">
-                        <a href="#"><img src="img/product-2/3.png" alt="#"></a>
+                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                         <div class="product-badge">
                             <ul>
                                 <li class="sale-badge">New</li>
                             </ul>
                         </div>
-                        <div class="product-hover-action">
-                            <ul>
-                                <li>
-                                    <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                        <i class="far fa-heart"></i></a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="product-info">
                         <div class="product-ratting">
@@ -3364,42 +2032,23 @@ require('header.php'); ?>
                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                             </ul>
                         </div>
-                        <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
+                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
-                            <span>$75.00</span>
-                            <del>$92.00</del>
+                            <span>₹32.00</span>
+                            <del>₹46.00</del>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ltn__product-item -->
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ltn__product-item ltn__product-item-3 text-center">
                     <div class="product-img">
-                        <a href="#"><img src="img/product-2/4.png" alt="#"></a>
+                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                         <div class="product-badge">
                             <ul>
                                 <li class="sale-badge">New</li>
                             </ul>
                         </div>
-                        <div class="product-hover-action">
-                            <ul>
-                                <li>
-                                    <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                        <i class="far fa-heart"></i></a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="product-info">
                         <div class="product-ratting">
@@ -3411,42 +2060,23 @@ require('header.php'); ?>
                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                             </ul>
                         </div>
-                        <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
+                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
-                            <span>$78.00</span>
-                            <del>$85.00</del>
+                            <span>₹32.00</span>
+                            <del>₹46.00</del>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ltn__product-item -->
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ltn__product-item ltn__product-item-3 text-center">
                     <div class="product-img">
-                        <a href="#"><img src="img/product-2/5.png" alt="#"></a>
+                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                         <div class="product-badge">
                             <ul>
                                 <li class="sale-badge">New</li>
                             </ul>
                         </div>
-                        <div class="product-hover-action">
-                            <ul>
-                                <li>
-                                    <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                        <i class="far fa-heart"></i></a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="product-info">
                         <div class="product-ratting">
@@ -3458,42 +2088,23 @@ require('header.php'); ?>
                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                             </ul>
                         </div>
-                        <h2 class="product-title"><a href="#">Blue Hand Gloves</a></h2>
+                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
-                            <span>$150.00</span>
-                            <del>$180.00</del>
+                            <span>₹32.00</span>
+                            <del>₹46.00</del>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ltn__product-item -->
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ltn__product-item ltn__product-item-3 text-center">
                     <div class="product-img">
-                        <a href="#"><img src="img/product-2/6.png" alt="#"></a>
+                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                         <div class="product-badge">
                             <ul>
                                 <li class="sale-badge">New</li>
                             </ul>
                         </div>
-                        <div class="product-hover-action">
-                            <ul>
-                                <li>
-                                    <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                        <i class="far fa-heart"></i></a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="product-info">
                         <div class="product-ratting">
@@ -3505,42 +2116,23 @@ require('header.php'); ?>
                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                             </ul>
                         </div>
-                        <h2 class="product-title"><a href="#">Thermometer Gun</a></h2>
+                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
-                            <span>$150.00</span>
-                            <del>$180.00</del>
+                            <span>₹32.00</span>
+                            <del>₹46.00</del>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ltn__product-item -->
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ltn__product-item ltn__product-item-3 text-center">
                     <div class="product-img">
-                        <a href="#"><img src="img/product-2/7.png" alt="#"></a>
+                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                         <div class="product-badge">
                             <ul>
                                 <li class="sale-badge">New</li>
                             </ul>
                         </div>
-                        <div class="product-hover-action">
-                            <ul>
-                                <li>
-                                    <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                        <i class="far fa-heart"></i></a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="product-info">
                         <div class="product-ratting">
@@ -3552,40 +2144,49 @@ require('header.php'); ?>
                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                             </ul>
                         </div>
-                        <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
+                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
-                            <span>$75.00</span>
-                            <del>$92.00</del>
+                            <span>₹32.00</span>
+                            <del>₹46.00</del>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ltn__product-item -->
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ltn__product-item ltn__product-item-3 text-center">
                     <div class="product-img">
-                        <a href="#"><img src="img/product-2/8.png" alt="#"></a>
+                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
                         <div class="product-badge">
                             <ul>
                                 <li class="sale-badge">New</li>
                             </ul>
                         </div>
-                        <div class="product-hover-action">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-ratting">
                             <ul>
-                                <li>
-                                    <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                                        <i class="far fa-heart"></i></a>
-                                </li>
+                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                            </ul>
+                        </div>
+                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
+                        <div class="product-price">
+                            <span>₹32.00</span>
+                            <del>₹46.00</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="ltn__product-item ltn__product-item-3 text-center">
+                    <div class="product-img">
+                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
+                        <div class="product-badge">
+                            <ul>
+                                <li class="sale-badge">New</li>
                             </ul>
                         </div>
                     </div>
@@ -3599,10 +2200,10 @@ require('header.php'); ?>
                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                             </ul>
                         </div>
-                        <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
+                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
-                            <span>$78.00</span>
-                            <del>$85.00</del>
+                            <span>₹32.00</span>
+                            <del>₹46.00</del>
                         </div>
                     </div>
                 </div>

@@ -43,16 +43,16 @@ require('header.php'); ?>
 
                                 $page = isset($_GET['page']) ? $_GET['page'] : 0;
                                 $sql = "SELECT * FROM products order by id desc Limit $page,20";
-                                $result = mysqli_query($conn, $sql);
+                                $result = mysqli_query($con, $sql);
                                 if ($result) {
                                     $s = 1;
                                     if (mysqli_num_rows($result) > 0) {
                                         while ($row = mysqli_fetch_assoc($result)) {
-                                ?>
+                                            ?>
                                             <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
                                                 <div class="ltn__product-item ltn__product-item-3 text-center">
                                                     <div class="product-img">
-                                                        <a href="/products?id=<?= $row['ID'] ?>"><img src="<?= $row['Image'] ?>"></a>
+                                                        <a href="/products?id=<?= $row['ID'] ?>"><img src="<?= 'admin/' . $row['Image'] ?>"></a>
                                                         <div class="product-badge">
                                                             <ul>
                                                                 <li class="sale-badge">New</li>
@@ -71,13 +71,12 @@ require('header.php'); ?>
                                                         </div>
                                                         <h2 class="product-title"><a href="/products?id=<?= $row['ID'] ?>"><?= $row['Name'] ?></a></h2>
                                                         <div class="product-price">
-                                                            <span><?= $row['Price'] ?></span>
+                                                            <span><?= '₹' . $row['Price'] ?></span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-
-                                <?php
+                                            <?php
                                             $s++;
                                         }
                                     }

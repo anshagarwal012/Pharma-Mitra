@@ -1,9 +1,9 @@
 <?php
 require('header.php');
-title('Daybook | Webly Technolab');
+title('All Hospitals | Pharma Mitra');
 require('sidebar.php');
 require('header2.php');
-$sql="Select * from daybook order by id desc";
+$sql="SELECT * FROM `hospital` ORDER BY ID DESC";
 $result=mysqli_query($con, $sql);
 ?>
 <div class="row">
@@ -11,7 +11,7 @@ $result=mysqli_query($con, $sql);
                     <div class="card card-shadow mb-4">
                         <div class="card-header border-0">
                             <div class="custom-title-wrap bar-primary">
-                                <div class="custom-title">All Records</div>
+                                <div class="custom-title">All Hospitals</div>
                             </div>
                         </div>
                         <div class="card-body- pt-3 pb-4">
@@ -19,15 +19,14 @@ $result=mysqli_query($con, $sql);
                                 <table id="data_table" class="table table-bordered table-striped" cellspacing="0">
                                     <thead>
                                     <tr>
-                                        <th>Sr.</th>
-                                        <th>Date</th>
+                                        <th>#</th>
                                         <th>Name</th>
-                                        <th>Debit/Credit</th>
-                                        <th>Method</th>
-                                        <th>Amount</th>
-                                        <th>Inserted Name</th>
-                                        <th>Description</th>
-                                    </tr>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>State</th>
+                                        <th>Address</th>
+                                        <th>Delete</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
                                     <?php
@@ -37,14 +36,15 @@ $result=mysqli_query($con, $sql);
                                             ?>
                                             <tr>
                                             <td><?php echo $i; ?></td>
-                                            <td><?php echo $row['Date']; ?></td>
                                             <td><?php echo $row['Name']; ?></td>
-                                            <td><?php echo $row['debit_credit']; ?></td>
-                                            <td><?php echo $row['Method']; ?></td>
-                                            <td><?php echo $row['Price']; ?></td>
-                                            <td><?php echo $row['login_name']; ?></td>
-                                            <td><?php echo $row['Description']; ?></td>
-                                           </tr>
+                                            <td><?php echo $row['Email']; ?></td>
+                                            <td><?php echo $row['Phone']; ?></td>
+                                            <td><?php echo $row['State']; ?></td>
+                                            <td><?php echo $row['Address']; ?></td>
+                                            <td>
+                                                <a href="delete.php?table=hospital&ID=<?php echo $row['ID'];?>"><i class="vl_recycle-bin delete"></i></a>
+                                            </td>
+                                            </tr>
                                         <?php
                                         $i++;
                                         }

@@ -1,5 +1,5 @@
 <?php
-require('admin/db.php');
+require('admin/conn.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

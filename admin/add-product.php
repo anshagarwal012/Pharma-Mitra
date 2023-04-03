@@ -1,6 +1,6 @@
 <?php
 require('header.php');
-title('Add New Customer | Webly Technolab');
+title('Add New | Pharma Mitra');
 require('sidebar.php');
 require('header2.php');
 
@@ -16,6 +16,7 @@ $product_manufacture=mysqli_real_escape_string($con,$_POST['product_manufacture'
 $login_name=$_SESSION['name'];
 $date=date("d/m/Y");
 $sql="INSERT INTO `products`(`Name`, `Price`, `Image`, `Description`, `Manufacture`) VALUES ('".$product_name."','".$product_price."','".$product_image."','".$product_description."','".$product_manufacture."')";
+
 if(mysqli_query($con, $sql)){
    $msg='<div class="col-md-12 py-2">
    <div class="alert alert-success" role="alert">
@@ -23,7 +24,7 @@ if(mysqli_query($con, $sql)){
 </div></div>';
 ?>
 <script>
-    window.location.href= 'customers.php';
+    window.location.href= 'products.php';
 </script>
 <?php
 }else{
@@ -57,7 +58,7 @@ if(mysqli_query($con, $sql)){
                     </div>
                     <div class="col-md-4 py-2">
                         <div class="form-group">
-                            <input type="file" class="form-control" id="product_image" name="product_image" required>
+                            <input type="file" class="form-control" id="product_image" name="product_image">
                         </div>
                     </div>
                 </div>

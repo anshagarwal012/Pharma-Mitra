@@ -81,10 +81,10 @@ if(isset($_POST['submit'])){
                 <div class="login-promo basic-gradient  text-white position-relative">
                     <div class="login-promo-content text-center">
                         <a href="#" class="mb-4 d-block">
-                            <img class="pr-3" src="assets/img/logo-white.png" alt="" width="100px">
+                            <img class="pr-3" src="../assets/img/logo/trans-bg.png" alt="" width="150px">
                         </a>
-                        <h1 class="text-white">Webly Technolab</h1>
-                        <p>Building The Future With Tech</p>
+                        <h1 class="text-white">Pharma Mitra</h1>
+                        <p>Committed to Your Well-being</p>
                         <a href="#" class="play-btn mt-4"><i class="fa fa-play"></i></a>
                     </div>
                 </div>

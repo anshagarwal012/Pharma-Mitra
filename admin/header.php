@@ -13,7 +13,7 @@ function title($title){?>
     <meta name="author" content="Ansh Agarwal">
 
     <!--favicon icon-->
-    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <link rel="icon" type="image/png" href="../assets/img/logo/trans-bg.png">
 
     <title><?php echo $title;?></title>
 
@@ -46,14 +46,10 @@ function title($title){?>
 
         <!--brand name-->
         <a class="navbar-brand" href="dashboard.php">
-            <img class="pr-3 float-left" src="assets/img/logo-icon.png" srcset="assets/img/logo-icon@2x.png 2x"
-                alt="" />
-            <div class="float-left">
-                <div>Webly Technolab</div>
-                <span class="page-direction f12 weight300">
-                    <span>Building The Future With Tech</span>
-                </span>
-            </div>
+            <img width="100" class="pr-3 float-left" src="../assets/img/logo/trans-bg.png" />
+            <div>Pharma Mitra</div>
+            <span class="page-direction f12 weight300">
+                <span>Committed to Your Well-being</span>
+            </span>
         </a><!--/brand name--><?php };
-        
         ?>

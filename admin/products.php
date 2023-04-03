@@ -1,6 +1,6 @@
 <?php
 require('header.php');
-title('All Customers | Webly Technolab');
+title('All Products | Pharma Mitra');
 require('sidebar.php');
 require('header2.php');
 $sql="SELECT * FROM `products` ORDER BY ID DESC";
@@ -25,7 +25,7 @@ $result=mysqli_query($con, $sql);
                                         <th>Price</th>
                                         <th>Description</th>
                                         <th>Manufacture</th>
-                                        <th>Edit/Delete</th>
+                                        <th>Delete</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -44,12 +44,6 @@ $result=mysqli_query($con, $sql);
                                             <td><?php echo $row['Description']; ?></td>
                                             <td><?php echo $row['Manufacture']; ?></td>
                                             <td>
-                                                <i class="vl_pencil"></i>
-                                                &nbsp;
-                                                &nbsp;
-                                                &nbsp;
-                                                &nbsp;
-                                                &nbsp;
                                                 <a href="delete.php?table=products&ID=<?php echo $row['ID'];?>"><i class="vl_recycle-bin delete"></i></a>
                                             </td>
                                             </tr>
