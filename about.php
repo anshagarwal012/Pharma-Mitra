@@ -37,6 +37,86 @@ require('header.php'); ?>
 </div>
 <!-- About Us AREA END -->
 
+<div class="ltn__team-area pt-110--- pb-90">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h2 class="text-center pb-90">Our Team</h2>
+            <div class="col-lg-3 col-sm-6">
+                <div class="ltn__team-item ltn__team-item-3---">
+                    <div class="team-img">
+                        <img src="admin/assets/img/avatar/avatar1.jpg" alt="Image">
+                    </div>
+                    <div class="team-info">
+                        <h4><a href="#">Yash Dixit</a></h4>
+                        <!-- <h6 class="ltn__secondary-color">.</h6>
+                        <div class="ltn__social-media">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="ltn__team-item ltn__team-item-3---">
+                    <div class="team-img">
+                        <img src="admin/assets/img/avatar/avatar1.jpg" alt="Image">
+                    </div>
+                    <div class="team-info">
+                        <h4><a href="#">Jatin Katiyar</a></h4>
+                        <!-- <h6 class="ltn__secondary-color">.</h6>
+                        <div class="ltn__social-media">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="ltn__team-item ltn__team-item-3---">
+                    <div class="team-img">
+                        <img src="admin/assets/img/avatar/avatar1.jpg" alt="Image">
+                    </div>
+                    <div class="team-info">
+                        <h4><a href="#">Divyanshu Gupta</a></h4>
+                        <!-- <h6 class="ltn__secondary-color">.</h6>
+                        <div class="ltn__social-media">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="ltn__team-item ltn__team-item-3---">
+                    <div class="team-img">
+                        <img src="admin/assets/img/avatar/avatar1.jpg" alt="Image">
+                    </div>
+                    <div class="team-info">
+                        <h4><a href="#">Aishwarya Dayal</a></h4>
+                        <!-- <h6 class="ltn__secondary-color">.</h6>
+                        <div class="ltn__social-media">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- FEATURE AREA START ( Feature - 6) -->
 <div class="ltn__feature-area section-bg-1 pt-115 pb-90">
     <div class="container">

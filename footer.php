@@ -8,7 +8,7 @@
                          <h1>Lorem Ipsum is simply dummy text <br>of the and typesetting industry.</h1>
                      </div>
                      <div class="btn-wrapper">
-                         <a class="btn btn-effect-3 btn-white" href="#">Explore Products <i class="icon-next"></i></a>
+                         <a class="btn btn-effect-3 btn-white" href="/shop">Explore Products <i class="icon-next"></i></a>
                      </div>
                  </div>
              </div>
@@ -22,14 +22,14 @@
      <div class="footer-top-area  section-bg-2 plr--5">
          <div class="container-fluid">
              <div class="row justify-content-between">
-                 <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                 <div class="col-xl-4 col-md-6 col-sm-6 col-12">
                      <div class="footer-widget footer-about-widget">
                          <div class="footer-logo">
                              <div class="site-logo">
-                                 <img src="assets/img/logo/trans-bg.png" alt="Logo">
+                                 <img src="assets/img/logo/footer.png" alt="Logo">
                              </div>
                          </div>
-                         <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
+                         <p>Committed to Your Well-being</p>
                          <div class="footer-address">
                              <ul>
                                  <li>
@@ -37,7 +37,7 @@
                                          <i class="icon-placeholder"></i>
                                      </div>
                                      <div class="footer-address-info">
-                                         <p>Lucknow, India</p>
+                                         <p>Kanpur, Uttar Pradesh</p>
                                      </div>
                                  </li>
                                  <li>
@@ -58,16 +58,16 @@
                                  </li>
                              </ul>
                          </div>
-                         <div class="ltn__social-media mt-20">
+                         <!-- <div class="ltn__social-media mt-20">
                              <ul>
                                  <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                  <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
                                  <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
                              </ul>
-                         </div>
+                         </div> -->
                      </div>
                  </div>
-                 <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                 <div class="col-xl-4 col-md-6 col-sm-6 col-12">
                      <div class="footer-widget footer-menu-widget clearfix">
                          <h4 class="footer-title">Menus</h4>
                          <div class="footer-menu">
@@ -81,21 +81,7 @@
                          </div>
                      </div>
                  </div>
-                 <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                     <div class="footer-widget footer-menu-widget clearfix">
-                         <h4 class="footer-title">Menus</h4>
-                         <div class="footer-menu">
-                             <ul>
-                                 <li><a href="/">Home</a></li>
-                                 <li><a href="/about">About</a></li>
-                                 <li><a href="/contact">Contact</a></li>
-                                 <li><a href="/blood-bank">Blood Bank</a></li>
-                                 <li><a href="/shop">Products</a></li>
-                             </ul>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-xl-3 col-md-6 col-sm-12 col-12">
+                 <div class="col-xl-4 col-md-6 col-sm-12 col-12">
                      <div class="footer-widget footer-newsletter-widget">
                          <h4 class="footer-title">Newsletter</h4>
                          <p>Subscribe to our weekly Newsletter and receive updates via email.</p>

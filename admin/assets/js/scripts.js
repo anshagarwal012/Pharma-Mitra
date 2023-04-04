@@ -8,7 +8,6 @@
 
     $(document).ready(function () {
 
-
         /* ---------------------------------------------
          Configure tooltips for collapsed side navigation
          --------------------------------------------- */
@@ -130,8 +129,6 @@
             autoHideScrollbar: true,
             scrollInertia: 0
         });
-
-
 
     });
 

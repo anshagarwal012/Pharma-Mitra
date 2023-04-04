@@ -50,7 +50,7 @@ require('header.php');
                         <img src="assets/img/icons/12.png" alt="Icon Image">
                     </div>
                     <h3>Office Address</h3>
-                    <p>Lucknow, India</p>
+                    <p>Kanpur, Uttar Pradesh</p>
                 </div>
             </div>
         </div>

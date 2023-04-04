@@ -1,5 +1,9 @@
 <?php
 require('admin/conn.php');
+if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
+    unset($_SESSION['products'][$_GET['ID']]);
+    header("location:" . $_SERVER['HTTP_REFERER']);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -49,13 +53,13 @@ require('admin/conn.php');
                                 <ul>
                                     <li>
                                         <!-- ltn__social-media -->
-                                        <div class="ltn__social-media">
+                                        <!-- <div class="ltn__social-media">
                                             <ul>
                                                 <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                                 <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
                                                 <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
                                             </ul>
-                                        </div>
+                                        </div> -->
                                     </li>
                                 </ul>
                             </div>
@@ -71,7 +75,7 @@ require('admin/conn.php');
                 <div class="row">
                     <div class="col">
                         <div class="site-logo">
-                            <a href="/"><img src="assets/img/logo/trans-bg.png" alt="Logo"></a>
+                            <a href="/"><img src="assets/img/logo/logo1.png" alt="Logo"></a>
                         </div>
                     </div>
                     <div class="col header-contact-serarch-column d-none d-lg-block">
@@ -144,7 +148,7 @@ require('admin/conn.php');
                                                 <i class="icon-shopping-cart"></i>
                                                 <sup>2</sup>
                                             </span>
-                                            <h6><span>Your Cart</span> <span class="ltn__secondary-color">$89.25</span></h6>
+                                            <h6><span>Your Cart</span> <span class="ltn__secondary-color">₹89.25</span></h6>
                                         </a>
                                     </div>
                                 </li>
@@ -162,7 +166,7 @@ require('admin/conn.php');
                     <div class="col header-menu-column justify-content-center">
                         <div class="sticky-logo">
                             <div class="site-logo">
-                                <a href="/"><img src="assets/img/logo/trans-bg.png" alt="Logo"></a>
+                                <a href="/"><img src="assets/img/logo/sticky_header.png" alt="Logo"></a>
                             </div>
                         </div>
                         <div class="header-menu header-menu-2">
@@ -215,56 +219,35 @@ require('admin/conn.php');
                 <button class="ltn__utilize-close">×</button>
             </div>
             <div class="mini-cart-product-area ltn__scrollbar">
-                <div class="mini-cart-item clearfix">
-                    <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/1.png" alt="Image"></a>
-                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
-                    </div>
-                    <div class="mini-cart-info">
-                        <h6><a href="#">Antiseptic Spray</a></h6>
-                        <span class="mini-cart-quantity">1 x $65.00</span>
-                    </div>
-                </div>
-                <div class="mini-cart-item clearfix">
-                    <div class="mini-cart-img">
-                        <a href="#"><img src="img/product-2/2.png" alt="Image"></a>
-                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
-                    </div>
-                    <div class="mini-cart-info">
-                        <h6><a href="#">Digital Stethoscope</a></h6>
-                        <span class="mini-cart-quantity">1 x $85.00</span>
-                    </div>
-                </div>
-                <div class="mini-cart-item clearfix">
-                    <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/3.png" alt="Image"></a>
-                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
-                    </div>
-                    <div class="mini-cart-info">
-                        <h6><a href="#">Cosmetic Containers</a></h6>
-                        <span class="mini-cart-quantity">1 x $92.00</span>
-                    </div>
-                </div>
-                <div class="mini-cart-item clearfix">
-                    <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/4.png" alt="Image"></a>
-                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
-                    </div>
-                    <div class="mini-cart-info">
-                        <h6><a href="#">Thermometer Gun</a></h6>
-                        <span class="mini-cart-quantity">1 x $68.00</span>
-                    </div>
-                </div>
+                <?php
+                $subtotal = 0;
+                if (isset($_SESSION['products']) && !empty($_SESSION['products'])) {
+                    foreach ($_SESSION['products'] as $id => $value) {
+                ?>
+                        <div class="mini-cart-item clearfix">
+                            <div class="mini-cart-img">
+                                <a href="#"><img src="admin/<?php echo $value[0]['image']; ?>" alt="Image"></a>
+                                <a href="shop.php?ID=<?php echo $id; ?>&key=delete_product"><span class="mini-cart-item-delete"><i class="icon-cancel"></i></span></a>
+                            </div>
+                            <div class="mini-cart-info">
+                                <h6><a href="#"><?php echo $value[0]['name']; ?></a></h6>
+                                <span class="mini-cart-quantity">1 x ₹<?php echo $value[0]['Price']; ?></span>
+                            </div>
+                        </div>
+                <?php
+                        $subtotal += (float) $value[0]['Price'];
+                    }
+                }
+                ?>
             </div>
             <div class="mini-cart-footer">
                 <div class="mini-cart-sub-total">
-                    <h5>Subtotal: <span>$310.00</span></h5>
+                    <h5>Subtotal: <span>₹<?php echo $subtotal; ?></span></h5>
                 </div>
                 <div class="btn-wrapper">
                     <a href="#" class="theme-btn-1 btn btn-effect-1">View Cart</a>
                     <a href="#" class="theme-btn-2 btn btn-effect-2">Checkout</a>
                 </div>
-                <p>Free Shipping on All Orders Over $100!</p>
             </div>
 
         </div>

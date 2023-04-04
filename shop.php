@@ -1,6 +1,23 @@
 <?php
 $heading = "Shop";
-require('header.php'); ?>
+require('header.php');
+if (isset($_GET['id']) && !empty($_GET['id'])) {
+    $sql = "SELECT * FROM products where id=" . $_GET['id'];
+    $result = mysqli_query($con, $sql);
+    if ($result) {
+        $s = 1;
+        if (mysqli_num_rows($result) > 0) {
+            $row = mysqli_fetch_assoc($result);
+            $_SESSION['products'][$row['ID']][] = array(
+                'name' => $row['Name'],
+                'image' => $row['Image'],
+                'Price' => $row['Price'],
+            );
+            echo '<script>window.location.href="https://pharmamitra.in/shop"</script>';
+        }
+    }
+}
+?>
 
 <!-- BREADCRUMB AREA START -->
 <div class="ltn__breadcrumb-area text-left bg-overlay-white-30">
@@ -48,11 +65,11 @@ require('header.php'); ?>
                                     $s = 1;
                                     if (mysqli_num_rows($result) > 0) {
                                         while ($row = mysqli_fetch_assoc($result)) {
-                                            ?>
+                                ?>
                                             <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
                                                 <div class="ltn__product-item ltn__product-item-3 text-center">
                                                     <div class="product-img">
-                                                        <a href="/products?id=<?= $row['ID'] ?>"><img src="<?= 'admin/' . $row['Image'] ?>"></a>
+                                                        <a href="/shop?id=<?= $row['ID'] ?>"><img src="<?= 'admin/' . $row['Image'] ?>"></a>
                                                         <div class="product-badge">
                                                             <ul>
                                                                 <li class="sale-badge">New</li>
@@ -69,14 +86,17 @@ require('header.php'); ?>
                                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                                             </ul>
                                                         </div>
-                                                        <h2 class="product-title"><a href="/products?id=<?= $row['ID'] ?>"><?= $row['Name'] ?></a></h2>
+                                                        <h2 class="product-title"><a href="/shop?id=<?= $row['ID'] ?>"><?= $row['Name'] ?></a></h2>
                                                         <div class="product-price">
                                                             <span><?= '₹' . $row['Price'] ?></span>
+                                                        </div>
+                                                        <div class="add-to-cart-btn">
+                                                            <a href="shop?id=<?= $row['ID'] ?>"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Add to cart</button></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <?php
+                                <?php
                                             $s++;
                                         }
                                     }

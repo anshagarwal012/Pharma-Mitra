@@ -49,7 +49,8 @@
   "use strict";
 
     jQuery(document).ready(function(){
-      
+      document.querySelector('.mini-cart-icon .ltn__secondary-color').textContent = document.querySelector('.mini-cart-sub-total span').textContent
+document.querySelector('.mini-cart-icon sup').textContent = document.querySelectorAll('.mini-cart-icon').length
         /* --------------------------------------------------------
             1. Variables
         --------------------------------------------------------- */

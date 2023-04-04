@@ -1,6 +1,10 @@
 <?php
 $heading = "Home";
-require('header.php'); ?>
+require('header.php');
+
+$sql = "SELECT * FROM `products`";
+$result = mysqli_query($con, $sql);
+?>
 <div class="ltn__utilize-overlay"></div>
 
 <!-- SLIDER AREA START (slider-3) -->
@@ -66,7 +70,7 @@ require('header.php'); ?>
                                                     <p>Predictive analytics is drastically changing the real estate industry. In the past, providing data for quick</p>
                                                 </div>
                                                 <div class="btn-wrapper  animated">
-                                                    <a href="#" class="theme-btn-1 btn btn-effect-1 text-uppercase">Shop now</a>
+                                                    <a href="/shop" class="theme-btn-1 btn btn-effect-1 text-uppercase">Shop now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -94,7 +98,7 @@ require('header.php'); ?>
                                                     <p>Predictive analytics is drastically changing the real estate industry. In the past, providing data for quick</p>
                                                 </div>
                                                 <div class="btn-wrapper  animated">
-                                                    <a href="#" class="theme-btn-1 btn btn-effect-1 text-uppercase">Shop now</a>
+                                                    <a href="/shop" class="theme-btn-1 btn btn-effect-1 text-uppercase">Shop now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -127,7 +131,7 @@ require('header.php'); ?>
                         </div>
                         <div class="ltn__feature-info">
                             <h4>Free shipping</h4>
-                            <p>On all orders over ₹49.00</p>
+                            <p>On all orders over ₹99.00</p>
                         </div>
                     </div>
                     <div class="ltn__feature-item ltn__feature-item-8">
@@ -183,1716 +187,216 @@ require('header.php'); ?>
                     </div>
                 </div>
                 <div class="tab-content">
-                    <div class="tab-pane fade active show" id="liton_tab_3_1">
-                        <div class="ltn__product-tab-content-inner">
-                            <div class="row ltn__tab-product-slider-one-active slick-arrow-1">
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="liton_tab_3_2">
-                        <div class="ltn__product-tab-content-inner">
-                            <div class="row ltn__tab-product-slider-one-active slick-arrow-1">
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="liton_tab_3_3">
-                        <div class="ltn__product-tab-content-inner">
-                            <div class="row ltn__tab-product-slider-one-active slick-arrow-1">
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="liton_tab_3_4">
-                        <div class="ltn__product-tab-content-inner">
-                            <div class="row ltn__tab-product-slider-one-active slick-arrow-1">
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="liton_tab_3_5">
-                        <div class="ltn__product-tab-content-inner">
-                            <div class="row ltn__tab-product-slider-one-active slick-arrow-1">
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">-19%</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li class="review-total"> <a href="#"> (24)</a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                                            <div class="product-price">
-                                                <span>₹32.00</span>
-                                                <del>₹46.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                                        <div class="product-img">
-                                            <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge">New</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="product-title"><a href="#">Cosmetic Containers</a></h2>
-                                            <div class="product-price">
-                                                <span>₹78.00</span>
-                                                <del>₹85.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                    if ($result) {
+                        if (mysqli_num_rows($result) > 0) {
+                            $row = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                            if (is_array($row) && !empty($row)) {
+                                echo '<div class="tab-pane fade active show" id="liton_tab_3_1"><div class="ltn__product-tab-content-inner"><div class="row ltn__tab-product-slider-one-active slick-arrow-1">';
+                                foreach ($row as $index => $product) {
+                                    if ($index < 10) { ?>
+                                        <!-- ltn__product-item -->
+                                        <div class="col-lg-6">
+                                            <div class="ltn__product-item ltn__product-item-3 text-center">
+                                                <div class="product-img">
+                                                    <a href="#"><img src="admin/<?php echo $product['Image']; ?>" alt="#"></a>
+                                                    <div class="product-badge">
+                                                        <ul>
+                                                            <li class="sale-badge">-19%</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <div class="product-ratting">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            <li class="review-total"> <a href="#"> (24)</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-title"><a href="#"><?php echo $product['Name']; ?></a></h2>
+                                                <div class="product-price">
+                                                    <span>₹<?php echo $product['Price']; ?></span>
+                                                </div>
+                                                <div class="add-to-cart-btn">
+                                                    <a href="shop?id=<?= $row['ID'] ?>"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Add to cart</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php
+                                    }
+                                }
+                                echo '</div></div></div>';
+
+
+                                echo '<div class="tab-pane fade" id="liton_tab_3_2"><div class="ltn__product-tab-content-inner"><div class="row ltn__tab-product-slider-one-active slick-arrow-1">';
+                                foreach ($row as $index => $product) {
+                                    if ($index < 20) { ?>
+                                        <!-- ltn__product-item -->
+                                        <div class="col-lg-6">
+                                            <div class="ltn__product-item ltn__product-item-3 text-center">
+                                                <div class="product-img">
+                                                    <a href="#"><img src="admin/<?php echo $product['Image']; ?>" alt="#"></a>
+                                                    <div class="product-badge">
+                                                        <ul>
+                                                            <li class="sale-badge">-19%</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <div class="product-ratting">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            <li class="review-total"> <a href="#"> (24)</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-title"><a href="#"><?php echo $product['Name']; ?></a></h2>
+                                                <div class="product-price">
+                                                    <span>₹<?php echo $product['Price']; ?></span>
+                                                </div>
+                                                <div class="add-to-cart-btn">
+                                                    <a href="shop?id=<?= $row['ID'] ?>"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Add to cart</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php
+                                    }
+                                }
+                                echo '</div></div></div>';
+
+                                echo '<div class="tab-pane fade" id="liton_tab_3_3"><div class="ltn__product-tab-content-inner"><div class="row ltn__tab-product-slider-one-active slick-arrow-1">';
+                                foreach ($row as $index => $product) {
+                                    if ($index < 30) { ?>
+                                        <!-- ltn__product-item -->
+                                        <div class="col-lg-6">
+                                            <div class="ltn__product-item ltn__product-item-3 text-center">
+                                                <div class="product-img">
+                                                    <a href="#"><img src="admin/<?php echo $product['Image']; ?>" alt="#"></a>
+                                                    <div class="product-badge">
+                                                        <ul>
+                                                            <li class="sale-badge">-19%</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <div class="product-ratting">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            <li class="review-total"> <a href="#"> (24)</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-title"><a href="#"><?php echo $product['Name']; ?></a></h2>
+                                                <div class="product-price">
+                                                    <span>₹<?php echo $product['Price']; ?></span>
+                                                </div>
+                                                <div class="add-to-cart-btn">
+                                                    <a href="shop?id=<?= $row['ID'] ?>"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Add to cart</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php
+                                    }
+                                }
+                                echo '</div></div></div>';
+
+                                echo '<div class="tab-pane fade" id="liton_tab_3_4"><div class="ltn__product-tab-content-inner"><div class="row ltn__tab-product-slider-one-active slick-arrow-1">';
+                                foreach ($row as $index => $product) {
+                                    if ($index < 40) { ?>
+                                        <!-- ltn__product-item -->
+                                        <div class="col-lg-6">
+                                            <div class="ltn__product-item ltn__product-item-3 text-center">
+                                                <div class="product-img">
+                                                    <a href="#"><img src="admin/<?php echo $product['Image']; ?>" alt="#"></a>
+                                                    <div class="product-badge">
+                                                        <ul>
+                                                            <li class="sale-badge">-19%</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <div class="product-ratting">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            <li class="review-total"> <a href="#"> (24)</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-title"><a href="#"><?php echo $product['Name']; ?></a></h2>
+                                                <div class="product-price">
+                                                    <span>₹<?php echo $product['Price']; ?></span>
+                                                </div>
+                                                <div class="add-to-cart-btn">
+                                                    <a href="shop?id=<?= $row['ID'] ?>"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Add to cart</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php
+                                    }
+                                }
+                                echo '</div></div></div>';
+
+                                echo '<div class="tab-pane fade" id="liton_tab_3_4"><div class="ltn__product-tab-content-inner"><div class="row ltn__tab-product-slider-one-active slick-arrow-1">';
+                                foreach ($row as $index => $product) {
+                                    if ($index < 50) { ?>
+                                        <!-- ltn__product-item -->
+                                        <div class="col-lg-6">
+                                            <div class="ltn__product-item ltn__product-item-3 text-center">
+                                                <div class="product-img">
+                                                    <a href="#"><img src="admin/<?php echo $product['Image']; ?>" alt="#"></a>
+                                                    <div class="product-badge">
+                                                        <ul>
+                                                            <li class="sale-badge">-19%</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <div class="product-ratting">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                            <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            <li class="review-total"> <a href="#"> (24)</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <h2 class="product-title"><a href="#"><?php echo $product['Name']; ?></a></h2>
+                                                <div class="product-price">
+                                                    <span>₹<?php echo $product['Price']; ?></span>
+                                                </div>
+                                                <div class="add-to-cart-btn">
+                                                    <a href="shop?id=<?= $row['ID'] ?>"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Add to cart</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                    <?php
+                                    }
+                                }
+                                echo '</div></div></div>';
+                            }
+                        }
+                    }
+                    ?>
+
                 </div>
             </div>
         </div>
@@ -1900,51 +404,6 @@ require('header.php'); ?>
 </div>
 <!-- PRODUCT TAB AREA END -->
 
-<!-- ABOUT US AREA START -->
-<div class="ltn__about-us-area bg-image pt-115 pb-110 d-none" data-bs-bg="img/bg/26.jpg">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 align-self-center">
-                <div class="about-us-img-wrap about-img-left">
-                    <!-- <img src="img/others/7.png" alt="About Us Image"> -->
-                </div>
-            </div>
-            <div class="col-lg-6 align-self-center">
-                <div class="about-us-info-wrap">
-                    <div class="section-title-area ltn__section-title-2--- mb-20">
-                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">N95 Facial Covering Mask</h6>
-                        <h1 class="section-title">Grade A Safety Masks
-                            For Sale. Haurry Up!</h1>
-                        <p>Over 39,000 people work for us in more than 70 countries all over the
-                            This breadth of global coverage, combined with specialist services</p>
-                    </div>
-                    <ul class="ltn__list-item-half clearfix">
-                        <li>
-                            <i class="flaticon-home-2"></i>
-                            Activated Carbon
-                        </li>
-                        <li>
-                            <i class="flaticon-mountain"></i>
-                            Breathing Valve
-                        </li>
-                        <li>
-                            <i class="flaticon-heart"></i>
-                            6 Layer Filteration
-                        </li>
-                        <li>
-                            <i class="flaticon-secure"></i>
-                            Rewashes & Reusable
-                        </li>
-                    </ul>
-                    <div class="btn-wrapper animated">
-                        <a href="/" class="ltn__secondary-color text-uppercase text-decoration-underline">View Products</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- ABOUT US AREA END -->
 
 <!-- COUNTDOWN AREA START -->
 <div class="ltn__call-to-action-area section-bg-1 bg-image pt-120 pb-120" data-bs-bg="img/bg/27.jpg">
@@ -1962,8 +421,8 @@ require('header.php'); ?>
                     </div>
                     <div class="ltn__countdown ltn__countdown-3 bg-white--" data-countdown="2023/5/01"></div>
                     <div class="btn-wrapper animated">
-                        <a href="#" class="theme-btn-1 btn btn-effect-1 text-uppercase">Shop now</a>
-                        <a href="#" class="ltn__secondary-color text-decoration-underline">Deal of The Day</a>
+                        <a href="/shop" class="theme-btn-1 btn btn-effect-1 text-uppercase">Shop now</a>
+                        <a href="/shop" class="ltn__secondary-color text-decoration-underline">Deal of The Day</a>
                     </div>
                 </div>
             </div>
@@ -2007,7 +466,9 @@ require('header.php'); ?>
                         <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
                             <span>₹32.00</span>
-                            <del>₹46.00</del>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
                         </div>
                     </div>
                 </div>
@@ -2035,7 +496,9 @@ require('header.php'); ?>
                         <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
                             <span>₹32.00</span>
-                            <del>₹46.00</del>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
                         </div>
                     </div>
                 </div>
@@ -2063,7 +526,9 @@ require('header.php'); ?>
                         <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
                             <span>₹32.00</span>
-                            <del>₹46.00</del>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
                         </div>
                     </div>
                 </div>
@@ -2091,7 +556,9 @@ require('header.php'); ?>
                         <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
                             <span>₹32.00</span>
-                            <del>₹46.00</del>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
                         </div>
                     </div>
                 </div>
@@ -2119,7 +586,9 @@ require('header.php'); ?>
                         <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
                             <span>₹32.00</span>
-                            <del>₹46.00</del>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
                         </div>
                     </div>
                 </div>
@@ -2147,7 +616,9 @@ require('header.php'); ?>
                         <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
                             <span>₹32.00</span>
-                            <del>₹46.00</del>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
                         </div>
                     </div>
                 </div>
@@ -2175,7 +646,9 @@ require('header.php'); ?>
                         <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
                             <span>₹32.00</span>
-                            <del>₹46.00</del>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
                         </div>
                     </div>
                 </div>
@@ -2203,7 +676,9 @@ require('header.php'); ?>
                         <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
                         <div class="product-price">
                             <span>₹32.00</span>
-                            <del>₹46.00</del>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
                         </div>
                     </div>
                 </div>
