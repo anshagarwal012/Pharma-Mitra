@@ -5,7 +5,7 @@
              <div class="col-lg-12">
                  <div class="call-to-action-inner call-to-action-inner-6 ltn__secondary-bg position-relative text-center---">
                      <div class="coll-to-info text-color-white">
-                         <h1>Lorem Ipsum is simply dummy text <br>of the and typesetting industry.</h1>
+                         <h1>Work in Progress</h1>
                      </div>
                      <div class="btn-wrapper">
                          <a class="btn btn-effect-3 btn-white" href="/shop">Explore Products <i class="icon-next"></i></a>
@@ -76,7 +76,9 @@
                                  <li><a href="/about">About</a></li>
                                  <li><a href="/contact">Contact</a></li>
                                  <li><a href="/blood-bank">Blood Bank</a></li>
-                                 <li><a href="/shop">Products</a></li>
+                                 <li><a href="/shop">Shop</a></li>
+                                 <li><a href="/admin">Login</a></li>
+                                 <li><a href="/admin/registration">Register</a></li>
                              </ul>
                          </div>
                      </div>

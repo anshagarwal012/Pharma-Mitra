@@ -1,7 +1,12 @@
 <?php
 require('conn.php');
 if (empty($_SESSION['pass'])) {
-    header('location:index.php');
+    header('location:index');
+}
+if (!$_SESSION['is_admin']) {
+    if ($_SERVER['REQUEST_URI'] != '/admin/orders') {
+        header('location:orders');
+    }
 }
 function title($title)
 { ?>

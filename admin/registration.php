@@ -1,27 +1,26 @@
 <?php
 $email = "";
+$name = "";
 $err = "";
 require('conn.php');
 if (!empty($_SESSION['pass'])) {
     header('location:dashboard.php');
 }
 if (isset($_POST['submit'])) {
+    $name = mysqli_real_escape_string($con, $_POST['name']);
     $email = mysqli_real_escape_string($con, $_POST['email']);
     $pass = mysqli_real_escape_string($con, $_POST['pass']);
-    $sql = "select * from credintials where email = '$email' AND pass='$pass'";
-    $result = mysqli_query($con, $sql);
-    if (mysqli_num_rows($result) > 0) {
-        $row = mysqli_fetch_assoc($result);
-        $_SESSION['pass'] = $pass;
-        $_SESSION['email'] = $email;
-        $_SESSION['name'] = $row['name'];
-        $_SESSION['dp'] = $row['dp'];
-        $_SESSION['is_admin'] = $row['is_admin'];
-        header('location:dashboard.php');
-        die();
+    $cpass = mysqli_real_escape_string($con, $_POST['cpass']);
+    if ($pass == $cpass) {
+        $sql = "INSERT INTO `credintials`(`email`, `pass`, `name`) VALUES ('$email','$pass','$name')";
+        $result = mysqli_query($con, $sql);
+        if ($result) {
+            echo '<script>alert("Registerd Successfully");window.location.href="index"</script>';
+            die();
+        }
     } else {
         $err = '<div class="alert alert-info my-2" role="alert">
-        Wrong Password !
+       Password Doesn\'t Match
       </div>';
     }
 }
@@ -38,7 +37,7 @@ if (isset($_POST['submit'])) {
     <!--favicon icon-->
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
 
-    <title>Webly Technolab - Admin Login Panel</title>
+    <title>Webly Technolab - Registration Panel</title>
 
 
     <!--bootstrap styles-->
@@ -60,29 +59,35 @@ if (isset($_POST['submit'])) {
             <div class="col-xl-12 d-lg-flex align-items-center">
                 <!--login form-->
                 <div class="login-form">
-                    <h4 class="text-uppercase text-purple text-center mb-5">Login</h4>
+                    <h4 class="text-uppercase text-purple text-center mb-5">Register</h4>
                     <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="exampleInputName1" value="<?php echo $Name ?>" placeholder="Enter Name" required>
+                        </div>
                         <div class="form-group">
                             <input type="email" name="email" class="form-control" id="exampleInputEmail1" value="<?php echo $email ?>" placeholder="Enter Email" required>
                         </div>
                         <div class="form-group mb-4">
                             <input type="password" name="pass" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" required>
                         </div>
+                        <div class="form-group mb-4">
+                            <input type="password" name="cpass" class="form-control" id="exampleInputcPassword1" placeholder="Enter Confirm Password" required>
+                        </div>
                         <?php echo $err; ?>
 
                         <div class="form-group clearfix">
 
-                            <button type="submit" name="submit" class="btn btn-purple float-right">LOGIN</button>
+                            <button type="submit" name="submit" class="btn btn-purple float-right">REGISTER</button>
                         </div>
-                        <div class="text-center mt-4">
-                            <a href="/admin/registration" class="btn-link text-capitalize f12">Create New Account</a>
+                        <div class="text-center mt-4 f12">
+                            Already have and account ? <a href="/admin/index" class="btn-link text-capitalize">Login</a>
                         </div>
                     </form>
                 </div>
                 <!--/login form-->
 
                 <!--login promo-->
-                <div class="login-promo basic-gradient  text-white position-relative">
+                <div class="login-promo basic-gradient py-5 text-white position-relative" style="min-height: 530px">
                     <div class="login-promo-content text-center">
                         <a href="#" class="mb-4 d-block">
                             <img class="pr-3" src="../assets/img/logo/trans-bg.png" alt="" width="150px">
@@ -93,7 +98,6 @@ if (isset($_POST['submit'])) {
                     </div>
                 </div>
                 <!--/login promo-->
-
             </div>
         </div>
     </div>

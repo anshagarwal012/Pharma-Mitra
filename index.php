@@ -2,8 +2,11 @@
 $heading = "Home";
 require('header.php');
 
-$sql = "SELECT * FROM `products`";
+$sql = "SELECT * FROM `products` order by id desc";
 $result = mysqli_query($con, $sql);
+
+$sql_b = "SELECT * FROM `banners` ORDER BY ID DESC";
+$result_b = mysqli_query($con, $sql_b);
 ?>
 <div class="ltn__utilize-overlay"></div>
 
@@ -56,62 +59,43 @@ $result = mysqli_query($con, $sql);
             <div class="col-lg-9">
                 <div class="ltn__slide-active-2 slick-slide-arrow-1 slick-slide-dots-1">
                     <!-- ltn__slide-item -->
-                    <div class="ltn__slide-item ltn__slide-item-10 section-bg-1 bg-image" data-bs-bg="admin/uploads/medicine.png">
-                        <div class="ltn__slide-item-inner">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-7 col-md-7 col-sm-7 align-self-center">
-                                        <div class="slide-item-info">
-                                            <div class="slide-item-info-inner ltn__slide-animation">
-                                                <h5 class="slide-sub-title ltn__secondary-color animated text-uppercase">Up To 50% Off Today Only!</h5>
-                                                <h1 class="slide-title  animated">Gold Standard <br>Pre-Workout</h1>
-                                                <h5 class="color-orange  animated">Starting at &16.99</h5>
-                                                <div class="slide-brief animated d-none">
-                                                    <p>Predictive analytics is drastically changing the real estate industry. In the past, providing data for quick</p>
+                    <?php
+                    if (mysqli_num_rows($result_b) > 0) {
+                        while ($row = mysqli_fetch_assoc($result_b)) {
+                    ?>
+                            <div class="ltn__slide-item ltn__slide-item-10 section-bg-1 bg-image" data-bs-bg="admin/<?php echo $row['image_path']; ?>">
+                                <div class="ltn__slide-item-inner">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-7 col-md-7 col-sm-7 align-self-center">
+                                                <div class="slide-item-info">
+                                                    <div class="slide-item-info-inner ltn__slide-animation">
+                                                        <h5 class="slide-sub-title ltn__secondary-color animated text-uppercase">Up To 50% Off Today Only!</h5>
+                                                        <h1 class="slide-title  animated"><?php echo $row['title']; ?></h1>
+                                                        <h5 class="color-orange  animated"><?php echo $row['a_title']; ?></h5>
+                                                        <div class="slide-brief animated d-none">
+                                                            <p><?php echo $row['b_title']; ?></p>
+                                                        </div>
+                                                        <div class="btn-wrapper  animated">
+                                                            <a href="<?php echo $row['button_link']; ?>" class="theme-btn-1 btn btn-effect-1 text-uppercase"><?php echo $row['button_name']; ?></a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="btn-wrapper  animated">
-                                                    <a href="/shop" class="theme-btn-1 btn btn-effect-1 text-uppercase">Shop now</a>
+                                            </div>
+                                            <div class="col-lg-5 col-md-5 col-sm-5 align-self-center">
+                                                <div class="slide-item-img">
+                                                    <!-- <a href="#"><img src="img/product/1.png" alt="Image"></a> -->
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-5 align-self-center">
-                                        <div class="slide-item-img">
-                                            <!-- <a href="#"><img src="img/product/1.png" alt="Image"></a> -->
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <!-- ltn__slide-item -->
-                    <div class="ltn__slide-item ltn__slide-item-10 section-bg-1 bg-image" data-bs-bg="admin/uploads/medicine.png">
-                        <div class="ltn__slide-item-inner">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-7 col-md-7 col-sm-7 align-self-center">
-                                        <div class="slide-item-info">
-                                            <div class="slide-item-info-inner ltn__slide-animation">
-                                                <h4 class="slide-sub-title ltn__secondary-color animated text-uppercase">Welcome to our shop</h4>
-                                                <h1 class="slide-title  animated">Gold Standard <br>Pre-Workout</h1>
-                                                <div class="slide-brief animated d-none">
-                                                    <p>Predictive analytics is drastically changing the real estate industry. In the past, providing data for quick</p>
-                                                </div>
-                                                <div class="btn-wrapper  animated">
-                                                    <a href="/shop" class="theme-btn-1 btn btn-effect-1 text-uppercase">Shop now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-5 align-self-center">
-                                        <div class="slide-item-img">
-                                            <!-- <a href="#"><img src="img/slider/62.jpg" alt="Image"></a> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        }
+                    }
+                    ?>
+
                 </div>
             </div>
         </div>
@@ -443,247 +427,52 @@ $result = mysqli_query($con, $sql);
         </div>
         <div class="row ltn__tab-product-slider-one-active--- slick-arrow-1">
             <!-- ltn__product-item -->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                <div class="ltn__product-item ltn__product-item-3 text-center">
-                    <div class="product-img">
-                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                        <div class="product-badge">
-                            <ul>
-                                <li class="sale-badge">New</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-ratting">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                        <div class="product-price">
-                            <span>₹32.00</span>
-                        </div>
-                        <div class="add-to-cart-btn">
-                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                <div class="ltn__product-item ltn__product-item-3 text-center">
-                    <div class="product-img">
-                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                        <div class="product-badge">
-                            <ul>
-                                <li class="sale-badge">New</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-ratting">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                        <div class="product-price">
-                            <span>₹32.00</span>
-                        </div>
-                        <div class="add-to-cart-btn">
-                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                <div class="ltn__product-item ltn__product-item-3 text-center">
-                    <div class="product-img">
-                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                        <div class="product-badge">
-                            <ul>
-                                <li class="sale-badge">New</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-ratting">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                        <div class="product-price">
-                            <span>₹32.00</span>
-                        </div>
-                        <div class="add-to-cart-btn">
-                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                <div class="ltn__product-item ltn__product-item-3 text-center">
-                    <div class="product-img">
-                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                        <div class="product-badge">
-                            <ul>
-                                <li class="sale-badge">New</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-ratting">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                        <div class="product-price">
-                            <span>₹32.00</span>
-                        </div>
-                        <div class="add-to-cart-btn">
-                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                <div class="ltn__product-item ltn__product-item-3 text-center">
-                    <div class="product-img">
-                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                        <div class="product-badge">
-                            <ul>
-                                <li class="sale-badge">New</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-ratting">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                        <div class="product-price">
-                            <span>₹32.00</span>
-                        </div>
-                        <div class="add-to-cart-btn">
-                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                <div class="ltn__product-item ltn__product-item-3 text-center">
-                    <div class="product-img">
-                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                        <div class="product-badge">
-                            <ul>
-                                <li class="sale-badge">New</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-ratting">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                        <div class="product-price">
-                            <span>₹32.00</span>
-                        </div>
-                        <div class="add-to-cart-btn">
-                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                <div class="ltn__product-item ltn__product-item-3 text-center">
-                    <div class="product-img">
-                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                        <div class="product-badge">
-                            <ul>
-                                <li class="sale-badge">New</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-ratting">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                        <div class="product-price">
-                            <span>₹32.00</span>
-                        </div>
-                        <div class="add-to-cart-btn">
-                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                <div class="ltn__product-item ltn__product-item-3 text-center">
-                    <div class="product-img">
-                        <a href="#"><img src="admin/uploads/medicine.png" alt="#"></a>
-                        <div class="product-badge">
-                            <ul>
-                                <li class="sale-badge">New</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-ratting">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2 class="product-title"><a href="#">Antiseptic Spray</a></h2>
-                        <div class="product-price">
-                            <span>₹32.00</span>
-                        </div>
-                        <div class="add-to-cart-btn">
-                            <a href="/shop"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">View</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--  -->
+            <?php
+            $sql = "SELECT * FROM `products` order by id desc";
+            $result1 = mysqli_query($con, $sql);
+            if ($result1) {
+                if (mysqli_num_rows($result1) > 0) {
+                    $row = mysqli_fetch_all($result1, MYSQLI_ASSOC);
+                    if (is_array($row) && !empty($row)) {
+                        foreach ($row as $index => $product) {
+                            if ($index >= 0 && $index <= 7) {
+            ?>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="#"><img src="admin/<?php echo $product['Image']; ?>" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">-19%</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="#"><?php echo $product['Name']; ?></h2>
+                                            <div class="product-price">
+                                                <span>₹<?php echo $product['Price']; ?></span>
+                                            </div>
+                                            <div class="add-to-cart-btn">
+                                                <a href="shop?id=<?= $product['ID'] ?>"><button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Add to cart</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            <?php }
+                        }
+                    }
+                }
+            }
+            ?>
         </div>
     </div>
 </div>
