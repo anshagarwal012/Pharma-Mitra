@@ -49,6 +49,22 @@
   "use strict";
 
     jQuery(document).ready(function(){
+        const blood_bank_table = jQuery("#blood_bank_table").DataTable(
+            {
+                pageLength: 50 
+            }
+        ); 
+        const hospitals_table = jQuery("#hospitals_table").DataTable(
+            {
+                pageLength: 50 
+            }
+        ); 
+        jQuery("select[name='blood_bank_state']").on("change", function(){
+            blood_bank_table.column( 4 ).search( jQuery("select[name='blood_bank_state']").val() ).draw();
+        })
+        jQuery("select[name='blood_group']").on("change", function(){
+            blood_bank_table.column( 6 ).search( jQuery("select[name='blood_group']").val() ).draw();
+        })
       document.querySelector('.mini-cart-icon .ltn__secondary-color').textContent = document.querySelector('.mini-cart-sub-total span').textContent
 document.querySelector('.mini-cart-icon sup').textContent = document.querySelectorAll('.mini-cart-icon').length
         /* --------------------------------------------------------

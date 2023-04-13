@@ -2,11 +2,8 @@
 $heading = "Blood Bank";
 require('header.php'); 
 
-if (isset($_POST['submit'])) {
-    $sql = "SELECT hospital.*, blood_bank.Blood_Group FROM hospital INNER JOIN blood_bank ON hospital.ID=blood_bank.Hospital_ID WHERE State = '".$_POST['blood_bank_state']."' AND Blood_Group = '".$_POST['blood_group']."'";
-    $result = mysqli_query($con, $sql);
-}
-
+$blood_bank_sql="SELECT hospital.*, blood_bank.Blood_Group FROM hospital INNER JOIN blood_bank ON hospital.ID=blood_bank.Hospital_ID";
+$blood_bank_result = mysqli_query($con, $blood_bank_sql);
 ?>
 
 <!-- BREADCRUMB AREA START -->
@@ -36,7 +33,7 @@ if (isset($_POST['submit'])) {
         <form action="#" method="POST">
             <div class="row">
 
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="ltn__search-widget">
                         <div class="short-by text-center">
                             <select name="blood_group" class="w-100 nice-select">
@@ -54,7 +51,7 @@ if (isset($_POST['submit'])) {
                     </div>
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="ltn__search-widget">
                         <div class="short-by text-center">
                             <select class="w-100 nice-select" name="blood_bank_state">
@@ -92,12 +89,6 @@ if (isset($_POST['submit'])) {
                     </div>
                 </div>
 
-                <div class="col-md-2">
-                    <div class="ltn__search-widget">
-                        <button name="submit" type="submit"><i class="fas fa-search"></i></button>  
-                    </div>
-                </div>
-
             </div>
         </form>
     </div>
@@ -109,40 +100,43 @@ if (isset($_POST['submit'])) {
 <div class="ltn__google-map-locations-list-area mb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="ltn__state-location">
+            <table id="blood_bank_table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>State</th>
+                        <th>Address</th>
+                        <th>Blood Group</th>
+                    </tr>
+                </thead>
+                <tbody>
                     <?php
-                    if (isset($_POST['submit'])){
-                        ?>
-                        <h2 class="ltn__state-location-title"><?php echo $_POST['blood_bank_state'];?></h2>
-                        <?php
+                    $data = isset($result) && !empty($result) ? $result : $blood_bank_result;
+                    if (isset($data) && !empty($data)) {
+                        if (mysqli_num_rows($data) > 0) {
+                            $i = 1;
+                            while ($row = mysqli_fetch_assoc($data)) {
+                                ?>
+                                <tr>
+                                    <th><?php echo $i;?></th>
+                                    <td><?php echo $row['Name'];?></td>
+                                    <td><?php echo $row['Email'];?></td>
+                                    <td><?php echo $row['Phone'];?></td>
+                                    <td><?php echo $row['State'];?></td>
+                                    <td><?php echo $row['Address'];?></td>
+                                    <td><?php echo $row['Blood_Group'];?></td>
+                                </tr>
+                                <?php
+                                $i++;
+                            }
+                        }
                     }
                     ?>
-                </div>
-            </div>
-
-            <?php
-            $i = 1;
-            if (isset($result) && !empty($result)) {
-                if (mysqli_num_rows($result) > 0) {
-                    while ($row = mysqli_fetch_assoc($result)) {
-                        ?>
-                        <div class="col-md-4">
-                            <div class="ltn__map-item">
-                                <h3 class="ltn__location-name"><?php echo $row['Name'];?></h3>
-                                <h5 class="ltn__location-single-info"><i class="icon-mail"></i><?php echo $row['Email'];?></h5>
-                                <h4 class="ltn__location-single-info"><i class="fas fa-phone-volume"></i><?php echo $row['Phone'];?></h4>
-                                <h5 class="ltn__location-single-info"><i class="fas fa-map-marked-alt"></i><?php echo $row['Address'];?></h5>
-                            </div>
-                        </div>
-                        <?php
-                        $i++;
-                    }                    
-                }
-            }
-            ?>
-
-
+                </tbody>
+            </table>
 
         </div>
     </div>

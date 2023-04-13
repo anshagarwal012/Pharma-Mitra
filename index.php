@@ -14,31 +14,30 @@ $result_b = mysqli_query($con, $sql_b);
 <div class="ltn__slider-area ltn__slider-3---  section-bg-1--- mt-30">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
-                <!-- CATEGORY-MENU-LIST START -->
+            <!-- <div class="col-lg-3">
                 <div class="ltn__category-menu-wrap">
                     <div class="ltn__category-menu-title">
                         <h2 class="section-bg-1 ltn__secondary-bg text-color-white">categories</h2>
                     </div>
                     <div class="ltn__category-menu-toggle ltn__one-line-active">
                         <ul>
-                            <!-- Submenu Column - unlimited -->
+
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-shopping-bags"></i>Health Care </a>
                             </li>
-                            <!-- Submenu Column - 4 -->
+
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-options"></i>First Aid </a>
                             </li>
-                            <!-- Submenu Column - 3 -->
+
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-award"></i>Surgical Product</a>
                             </li>
-                            <!-- Submenu Column - 2 -->
+
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-user"></i>Diagnostic Product</a>
                             </li>
-                            <!-- Submenu -->
+
                             <li class="ltn__category-menu-item ltn__category-menu-drop">
                                 <a href="#"><i class="icon-shopping-cart"></i>Laboratory Product</a>
                             </li>
@@ -50,13 +49,12 @@ $result_b = mysqli_query($con, $sql_b);
                                     close menu <span class="cat-thumb  icon-remove"></span>
                                 </a>
                             </li>
-                            <!-- Single menu end -->
+
                         </ul>
                     </div>
                 </div>
-                <!-- END CATEGORY-MENU-LIST -->
-            </div>
-            <div class="col-lg-9">
+            </div> -->
+            <div class="col-lg-12">
                 <div class="ltn__slide-active-2 slick-slide-arrow-1 slick-slide-dots-1">
                     <!-- ltn__slide-item -->
                     <?php
@@ -101,7 +99,6 @@ $result_b = mysqli_query($con, $sql_b);
         </div>
     </div>
 </div>
-<!-- SLIDER AREA END -->
 
 <!-- FEATURE AREA START ( Feature - 3) -->
 <div class="ltn__feature-area mt-35 mt--65---">
@@ -109,40 +106,50 @@ $result_b = mysqli_query($con, $sql_b);
         <div class="row">
             <div class="col-lg-12">
                 <div class="ltn__feature-item-box-wrap ltn__feature-item-box-wrap-2 ltn__border section-bg-1">
-                    <div class="ltn__feature-item ltn__feature-item-8">
-                        <div class="ltn__feature-icon">
-                            <img src="assets/img/icons/svg/8-trolley.svg" alt="#">
+                    <div class="row">
+                        <div class="col">
+                            <div class="ltn__feature-item ltn__feature-item-8">
+                                <div class="ltn__feature-icon">
+                                    <img src="assets/img/icons/ordermedicine_s1.png" alt="#">
+                                </div>
+                                <div class="ltn__feature-info">
+                                    <h4>Order Medicine</h4>
+                                    <p>Genuine Medicine. Maximum Discount Free Delivery at your door step</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="ltn__feature-info">
-                            <h4>Free shipping</h4>
-                            <p>On all orders over ₹99.00</p>
+                        <div class="col">
+                            <div class="ltn__feature-item ltn__feature-item-8">
+                                <div class="ltn__feature-icon">
+                                    <img src="assets/img/icons/orderbyprescription_s1.png" alt="#">
+                                </div>
+                                <div class="ltn__feature-info">
+                                    <h4>Order by Prescription</h4>
+                                    <p>Submit Your Prescription and Get Your Medicines at Home</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="ltn__feature-item ltn__feature-item-8">
-                        <div class="ltn__feature-icon">
-                            <img src="assets/img/icons/svg/9-money.svg" alt="#">
+                        <div class="col">
+                            <div class="ltn__feature-item ltn__feature-item-8">
+                                <div class="ltn__feature-icon">
+                                    <img src="assets/img/icons/reordermedicine_s1.png" alt="#">
+                                </div>
+                                <div class="ltn__feature-info">
+                                    <h4>Fast Delivery</h4>
+                                    <p>Genuine Medicine. Maximum Discount Free Delivery at your door step</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="ltn__feature-info">
-                            <h4>15 days returns</h4>
-                            <p>Moneyback guarantee</p>
-                        </div>
-                    </div>
-                    <div class="ltn__feature-item ltn__feature-item-8">
-                        <div class="ltn__feature-icon">
-                            <img src="assets/img/icons/svg/10-credit-card.svg" alt="#">
-                        </div>
-                        <div class="ltn__feature-info">
-                            <h4>Secure checkout</h4>
-                            <p>Protected by Paypal</p>
-                        </div>
-                    </div>
-                    <div class="ltn__feature-item ltn__feature-item-8">
-                        <div class="ltn__feature-icon">
-                            <img src="assets/img/icons/svg/11-gift-card.svg" alt="#">
-                        </div>
-                        <div class="ltn__feature-info">
-                            <h4>Offer & gift here</h4>
-                            <p>On all orders over</p>
+                        <div class="col">
+                            <div class="ltn__feature-item ltn__feature-item-8">
+                                <div class="ltn__feature-icon">
+                                    <img src="assets/img/icons/shopbycategory_s1.png" alt="#">
+                                </div>
+                                <div class="ltn__feature-info">
+                                    <h4>Shop by Category</h4>
+                                    <p>Genuine Products, Hygiene Storage, Low Price, Timely Delivery of Household Supplies.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

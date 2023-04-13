@@ -26,7 +26,7 @@
                      <div class="footer-widget footer-about-widget">
                          <div class="footer-logo">
                              <div class="site-logo">
-                                 <img src="assets/img/logo/footer.png" alt="Logo">
+                                 <img src="assets/img/logo/sticky_header.png" alt="Logo">
                              </div>
                          </div>
                          <p>Committed to Your Well-being</p>
@@ -45,7 +45,7 @@
                                          <i class="icon-call"></i>
                                      </div>
                                      <div class="footer-address-info">
-                                         <p><a href="tel:919870636608">+91 987-063-6608</a></p>
+                                         <p><a href="/contact">+91 987-063-6608</a></p>
                                      </div>
                                  </li>
                                  <li>
@@ -53,7 +53,7 @@
                                          <i class="icon-mail"></i>
                                      </div>
                                      <div class="footer-address-info">
-                                         <p><a href="mailto:contact.us@pharmamitra.in">contact.us@pharmamitra.in</a></p>
+                                         <p><a href="/contact">contact.us@pharmamitra.in</a></p>
                                      </div>
                                  </li>
                              </ul>
@@ -77,8 +77,6 @@
                                  <li><a href="/contact">Contact</a></li>
                                  <li><a href="/blood-bank">Blood Bank</a></li>
                                  <li><a href="/shop">Shop</a></li>
-                                 <li><a href="/admin">Login</a></li>
-                                 <li><a href="/admin/registration">Register</a></li>
                              </ul>
                          </div>
                      </div>
@@ -142,6 +140,8 @@
  <script src="assets/js/plugins.js"></script>
  <!-- Main JS -->
  <script src="assets/js/main.js"></script>
+ <!-- Datatable JS -->
+ <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 
  </body>
 

@@ -29,6 +29,7 @@ if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive css -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
 </head>
 
 <div class="body-wrapper">
@@ -42,8 +43,8 @@ if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
                     <div class="col-md-7">
                         <div class="ltn__top-bar-menu">
                             <ul>
-                                <li><a href="mailto:contact.us@pharmamitra.in"><i class="icon-mail"></i> contact.us@pharmamitra.in</a></li>
-                                <li><a href="#"><i class="icon-placeholder"></i> Lucknow, India</a></li>
+                                <li><a href="/contact"><i class="icon-mail"></i> contact.us@pharmamitra.in</a></li>
+                                <li><a href="#"><i class="icon-placeholder"></i> Kanpur, India</a></li>
                             </ul>
                         </div>
                     </div>
@@ -124,17 +125,15 @@ if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
                                         </div>
                                     </div>
                                 </li>
-                                <li class="d-none---" style="display:none">
+                                <li class="d-none---">
                                     <!-- user-menu -->
                                     <div class="ltn__drop-menu user-menu">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="icon-user"></i></a>
                                                 <ul>
-                                                    <li><a href="#">Sign in</a></li>
-                                                    <li><a href="#">Register</a></li>
-                                                    <li><a href="#">My Account</a></li>
-                                                    <li><a href="#">Wishlist</a></li>
+                                                    <li><a href="/admin">Sign in</a></li>
+                                                    <li><a href="/admin/registration">Register</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -178,6 +177,7 @@ if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
                                         <li><a href="./contact">Contact</a></li>
                                         <li><a href="./blood-bank">Blood Bank</a></li>
                                         <li><a href="./shop">Shop</a></li>
+                                        <li><a href="./hospitals">Hospitals</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -204,6 +204,25 @@ if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
                                 <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
                             </svg>
                         </a>
+                    </div>
+                    <div id="ltn__utilize-mobile-menu" class="ltn__utilize ltn__utilize-mobile-menu ltn__utilize-open">
+                        <div class="ltn__utilize-menu-inner ltn__scrollbar">
+                            <div class="ltn__utilize-menu-head">
+                                <div class="site-logo">
+                                    <a href="index.html"><img src="assets/img/logo/logo1.png" alt="Logo"></a>
+                                </div>
+                                <button class="ltn__utilize-close">×</button>
+                            </div>
+                            <div class="ltn__utilize-menu">
+                                <ul>
+                                    <li><a href="./">Home</a></li>
+                                    <li><a href="./about">About</a></li>
+                                    <li><a href="./contact">Contact</a></li>
+                                    <li><a href="./blood-bank">Blood Bank</a></li>
+                                    <li><a href="./shop">Shop</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

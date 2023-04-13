@@ -249,7 +249,7 @@ font-family: 'Nunito', sans-serif;
   /* Darken */
   --ltn__primary-color-3: #133236;
   /* Lighten */
-  --ltn__secondary-color: #0A9A73;
+  --ltn__secondary-color: #3598d3;
   --ltn__secondary-color-2: #cb3421;
   /* Darken */
   --ltn__secondary-color-3: #fb412a;
@@ -4134,9 +4134,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 ---------------------------------------------------- */
 .ltn__breadcrumb-area {
   background-color: var(--section-bg-1);
-  margin-bottom: 120px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  margin-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .ltn__breadcrumb-list ul {

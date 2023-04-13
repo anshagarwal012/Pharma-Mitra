@@ -1,6 +1,9 @@
 <?php
 $heading = "About";
-require('header.php'); ?>
+require('header.php');
+$sql_b = "SELECT * FROM `about_banner` ORDER BY ID DESC limit 0,1";
+$result_b = mysqli_query($con, $sql_b);
+?>
 <!-- BREADCRUMB AREA START -->
 <div class="ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image " data-bs-bg="img/bg/14.jpg">
     <div class="container">
@@ -10,7 +13,7 @@ require('header.php'); ?>
                     <h1 class="page-title">About Us</h1>
                     <div class="ltn__breadcrumb-list">
                         <ul>
-                            <li><a href="#=" ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
+                            <li><a href="#" class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
                             <li>About Us</li>
                         </ul>
                     </div>
@@ -25,12 +28,24 @@ require('header.php'); ?>
 <div class="mb-3 pb-90">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-6">
                 <h2>About Us</h2>
                 <p>We are dedicated to provide assistance and resources for all of your pharmacy-related requirements at Pharmamitra. Our goal is to make accessing the medical treatment you require, especially in trying circumstances, as simple as possible.</p>
                 <p>Access to information and resources is one of the largest obstacles in the healthcare industry, which is why we offer accurate data about blood banks and their availability. Our mission is to assist you in locating the blood and other medical supplies you require so you can concentrate on getting better.</p>
                 <p>We are committed to making the process of obtaining blood from various sources simpler because we are aware that navigating the healthcare system may be difficult. Our team is here to support you at every stage of the procedure so you can pay attention to what's most important: your health and wellbeing.</p>
                 <p>At Pharmamitra, we are dedicated to giving individuals in need compassionate assistance, support, and resources. We are here to help, whether you are dealing with a serious illness or just require support with pharmacy-related requirements.</p>
+            </div>
+            <div class="col-lg-6">
+                <?php
+                if (mysqli_num_rows($result_b) > 0) {
+                    while ($row = mysqli_fetch_assoc($result_b)) {
+                ?>
+                        <div class="ltn__slide-item ltn__slide-item-10 section-bg-1 bg-image" data-bs-bg="admin/<?php echo $row['image']; ?>">
+                        </div>
+                <?php
+                    }
+                }
+                ?>
             </div>
         </div>
     </div>
@@ -240,52 +255,4 @@ require('header.php'); ?>
 </div>
 <!-- FEATURE AREA END -->
 
-<!-- COUNTER UP AREA START -->
-<div class="ltn__counterup-area section-bg-1 bg-image bg-overlay-theme-black-80--- pt-115 pb-70" data-bs-bg="img/bg/30.jpg">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 align-self-center">
-                <div class="ltn__counterup-item text-center">
-                    <div class="counter-icon">
-                        <!-- <img src="img/icons/icon-img/2.png" alt="#">  -->
-                        <i class="flaticon-add-user-1"></i>
-                    </div>
-                    <h1><span class="counter">733</span><span class="counterUp-icon">+</span> </h1>
-                    <h6>Active Clients</h6>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 align-self-center">
-                <div class="ltn__counterup-item text-center">
-                    <div class="counter-icon">
-                        <!-- <img src="img/icons/icon-img/3.png" alt="#">  -->
-                        <i class="flaticon-dining-table-with-chairs"></i>
-                    </div>
-                    <h1><span class="counter">33</span><span class="counterUp-letter">K</span><span class="counterUp-icon">+</span> </h1>
-                    <h6>Cup Of Coffee</h6>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 align-self-center">
-                <div class="ltn__counterup-item text-center">
-                    <div class="counter-icon">
-                        <!-- <img src="img/icons/icon-img/3.png" alt="#">  -->
-                        <i class="flaticon-package"></i>
-                    </div>
-                    <h1><span class="counter">100</span><span class="counterUp-icon">+</span> </h1>
-                    <h6>Get Rewards</h6>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 align-self-center">
-                <div class="ltn__counterup-item text-center">
-                    <div class="counter-icon">
-                        <!-- <img src="img/icons/icon-img/3.png" alt="#">  -->
-                        <i class="flaticon-maps-and-location"></i>
-                    </div>
-                    <h1><span class="counter">21</span><span class="counterUp-icon">+</span> </h1>
-                    <h6>Country Cover</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- COUNTER UP AREA END -->
 <?php require('footer.php');
