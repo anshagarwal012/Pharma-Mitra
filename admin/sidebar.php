@@ -112,6 +112,17 @@ if (strpos($url, 'dashboard')) {
                 </ul>
             </li>
 
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Data Tables">
+                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#d_tables_cat">
+                    <i class="vl_bond"></i>
+                    <span class="nav-link-text">Categories</span>
+                </a>
+                <ul class="sidenav-second-level collapse <?php echo $k ?>" id="d_tables_cat" data-parent="#accordion">
+                    <li class="<?php echo $d ?>"> <a href="add-category">Add New</a> </li>
+                    <li class="<?php echo $e ?>"> <a href="categories">All Categories</a> </li>
+                </ul>
+            </li>
+
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
                 <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#charts">
                     <i class="vl_files"></i>
@@ -122,6 +133,7 @@ if (strpos($url, 'dashboard')) {
                     <li class="<?php echo $g ?>"> <a href="hospitals">All Hospitals</a> </li>
                 </ul>
             </li>
+
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="banner">
                 <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#banner">
                     <i class="vl_files"></i>
@@ -132,6 +144,7 @@ if (strpos($url, 'dashboard')) {
                     <li class="<?php echo $i ?>"> <a href="banners">All Banners</a> </li>
                 </ul>
             </li>
+
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="about_banner">
                 <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" data-target="#about_banner">
                     <i class="vl_files"></i>

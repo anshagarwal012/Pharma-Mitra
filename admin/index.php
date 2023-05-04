@@ -38,7 +38,7 @@ if (isset($_POST['submit'])) {
     <!--favicon icon-->
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
 
-    <title>Webly Technolab - Admin Login Panel</title>
+    <title>Pharma Mitra - Admin Login Panel</title>
 
 
     <!--bootstrap styles-->

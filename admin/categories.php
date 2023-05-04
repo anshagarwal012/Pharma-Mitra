@@ -1,9 +1,9 @@
 <?php
 require('header.php');
-title('All Products | Pharma Mitra');
+title('All Categories | Pharma Mitra');
 require('sidebar.php');
 require('header2.php');
-$sql="SELECT products.*, category.Name AS cat_name FROM products INNER JOIN category ON category.ID=products.Category_ID;";
+$sql="SELECT * FROM `category` ORDER BY ID DESC";
 $result=mysqli_query($con, $sql);
 ?>
 <div class="row">
@@ -11,7 +11,7 @@ $result=mysqli_query($con, $sql);
                     <div class="card card-shadow mb-4">
                         <div class="card-header border-0">
                             <div class="custom-title-wrap bar-primary">
-                                <div class="custom-title">All Products</div>
+                                <div class="custom-title">All Categories</div>
                             </div>
                         </div>
                         <div class="card-body- pt-3 pb-4">
@@ -20,13 +20,7 @@ $result=mysqli_query($con, $sql);
                                     <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Image</th>
                                         <th>Name</th>
-                                        <th>Price</th>
-                                        <th>Description</th>
-                                        <th>Manufacture</th>
-                                        <th>Category</th>
-                                        <th>Delete</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -37,17 +31,7 @@ $result=mysqli_query($con, $sql);
                                             ?>
                                             <tr>
                                             <td><?php echo $i; ?></td>
-                                            <td>
-                                                <img class="w-100" src="<?php echo $row['Image']; ?>">
-                                            </td>
                                             <td><?php echo $row['Name']; ?></td>
-                                            <td><?php echo $row['Price']; ?></td>
-                                            <td><?php echo $row['Description']; ?></td>
-                                            <td><?php echo $row['Manufacture']; ?></td>
-                                            <td><?php echo $row['cat_name']; ?></td>
-                                            <td>
-                                                <a href="delete.php?table=products&ID=<?php echo $row['ID'];?>"><i class="vl_recycle-bin delete"></i></a>
-                                            </td>
                                             </tr>
                                         <?php
                                         $i++;

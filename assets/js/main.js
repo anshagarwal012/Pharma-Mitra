@@ -49,6 +49,7 @@
   "use strict";
 
     jQuery(document).ready(function(){
+
         const blood_bank_table = jQuery("#blood_bank_table").DataTable(
             {
                 pageLength: 50 
@@ -58,7 +59,30 @@
             {
                 pageLength: 50 
             }
-        ); 
+        );
+
+        $('#global_search').on("change", function(e){
+            e.preventDefault();
+            switch ($('#global_search').find(":selected").val()) {
+                case 'products':
+                    window.location.href = "https://" + location.hostname + '/shop?global_search=' + $('#global_search').find(":selected").val() + '&global_search_keyword=' + $("#global_search_keyword").val()
+                    break;
+                case 'hospitals':
+                    window.location.href = "https://" + location.hostname + '/hospitals?query='+$("#global_search_keyword").val()
+                    break;
+                case 'blood_bank':
+                    window.location.href = "https://" + location.hostname + '/blood-bank?query='+$("#global_search_keyword").val()
+                    break;
+                }
+        })
+                
+        if(window.location.pathname == '/hospitals' &&  window.location.search != ''){
+            var quer = window.location.search.split("=")[1]
+            hospitals_table.column( 1 ).search( quer ).draw();
+        }else if( window.location.pathname == '/blood-bank' &&  window.location.search != ''){
+            var quer = window.location.search.split("=")[1]
+            blood_bank_table.column( 6 ).search( quer ).draw();
+        }
         jQuery("select[name='blood_bank_state']").on("change", function(){
             blood_bank_table.column( 4 ).search( jQuery("select[name='blood_bank_state']").val() ).draw();
         })

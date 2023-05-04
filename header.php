@@ -3,6 +3,9 @@ require('admin/conn.php');
 if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
     unset($_SESSION['products'][$_GET['ID']]);
     header("location:" . $_SERVER['HTTP_REFERER']);
+}else if (isset($_GET['global_search']) && isset($_GET['global_search_keyword'])) {
+    $search_sql = "SELECT * FROM `products` WHERE `Name` LIKE '%".$_GET['search']."%'";
+    $search_result = mysqli_query($con, $search_sql);
 }
 ?>
 <!DOCTYPE html>
@@ -29,6 +32,7 @@ if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive css -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
 </head>
 
@@ -44,26 +48,8 @@ if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
                         <div class="ltn__top-bar-menu">
                             <ul>
                                 <li><a href="/contact"><i class="icon-mail"></i> contact.us@pharmamitra.in</a></li>
-                                <li><a href="#"><i class="icon-placeholder"></i> Kanpur, India</a></li>
+                                <li><a href="/contact"><i class="icon-placeholder"></i> Kanpur, India</a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="top-bar-right text-right text-end">
-                            <div class="ltn__top-bar-menu">
-                                <ul>
-                                    <li>
-                                        <!-- ltn__social-media -->
-                                        <!-- <div class="ltn__social-media">
-                                            <ul>
-                                                <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                                <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                            </ul>
-                                        </div> -->
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -94,9 +80,14 @@ if (isset($_GET['key']) && $_GET['key'] == "delete_product") {
                             <!-- header-search-2 -->
                             <div class="header-search-2">
                                 <form id="#123" method="get" action="#">
-                                    <input type="text" name="search" value="" placeholder="Search Blood Bank..." />
-                                    <button type="submit">
-                                        <span><i class="icon-search"></i></span>
+                                    <input type="text" id="global_search_keyword" name="search" value="" placeholder="Search..." />
+                                    <button id="global_search_icon" type="button">
+                                        <!-- <span><i class="icon-search"></i></span> -->
+                                        <select name="global_search" id="global_search">
+                                            <option value="products">Products</option>
+                                            <option value="hospitals">Hospitals</option>
+                                            <option value="blood_bank">Blood Bank</option>
+                                        </select>
                                     </button>
                                 </form>
                             </div>

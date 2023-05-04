@@ -3,10 +3,12 @@ require('header.php');
 title('Add New | Pharma Mitra');
 require('sidebar.php');
 require('header2.php');
-
+$category_sql="SELECT * FROM `category` ORDER BY ID DESC";
+$category_result=mysqli_query($con, $category_sql);
 $msg="";
 if(isset($_POST['submit'])){
 $product_name=mysqli_real_escape_string($con,$_POST['product_name']);
+$category=mysqli_real_escape_string($con,$_POST['category']);
 $product_price=mysqli_real_escape_string($con,$_POST['product_price']);
 $target_dir = "uploads/";
 $product_image = $target_dir . time() .  basename($_FILES["product_image"]["name"]);
@@ -15,7 +17,7 @@ $product_description=mysqli_real_escape_string($con,$_POST['product_description'
 $product_manufacture=mysqli_real_escape_string($con,$_POST['product_manufacture']);
 $login_name=$_SESSION['name'];
 $date=date("d/m/Y");
-$sql="INSERT INTO `products`(`Name`, `Price`, `Image`, `Description`, `Manufacture`) VALUES ('".$product_name."','".$product_price."','".$product_image."','".$product_description."','".$product_manufacture."')";
+$sql="INSERT INTO `products`(`Name`, `Price`, `Image`, `Description`, `Manufacture`, `Category_ID`) VALUES ('".$product_name."','".$product_price."','".$product_image."','".$product_description."','".$product_manufacture."','".$category."')";
 
 if(mysqli_query($con, $sql)){
    $msg='<div class="col-md-12 py-2">
@@ -71,6 +73,21 @@ if(mysqli_query($con, $sql)){
                     <div class="col-md-4 py-2">
                         <div class="form-group">
                             <textarea rows="4" cols="50" class="form-control" id="product_description" placeholder="Description" name="product_description" required></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-2">
+                        <div class="form-group">
+                            <select name="category" id="category" class="form-control">
+                                    <?php
+                                    if(mysqli_num_rows($category_result)>0){
+                                        while($row=mysqli_fetch_assoc($category_result)){
+                                            ?>
+                                            <option value="<?php echo $row['ID']; ?>"><?php echo $row['Name']; ?></option>
+                                            <?php
+                                        }
+                                    }
+                                    ?>
+                            </select>
                         </div>
                     </div>
                     <?php echo $msg;?>

@@ -55,7 +55,7 @@ function send_mail($name, $email, $pass)
     <!--favicon icon-->
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
 
-    <title>Webly Technolab - Registration Panel</title>
+    <title>Pharma Mitra - Registration Panel</title>
 
 
     <!--bootstrap styles-->

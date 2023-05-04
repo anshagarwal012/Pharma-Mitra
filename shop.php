@@ -16,6 +16,9 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
             echo '<script>window.location.href="https://pharmamitra.in/shop"</script>';
         }
     }
+}else if (isset($_GET['search'])) {
+    $search_sql = "SELECT * FROM `products` WHERE `Name` LIKE '%".$_GET['search']."%'";
+    $search_result = mysqli_query($con, $search_sql);
 }
 ?>
 
@@ -60,6 +63,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
                                 $page = isset($_GET['page']) ? $_GET['page'] : 0;
                                 $sql = "SELECT * FROM products order by id desc Limit $page,20";
                                 $result = mysqli_query($con, $sql);
+                                $result = isset($search_result) ? $search_result : $result;
                                 if ($result) {
                                     $s = 1;
                                     if (mysqli_num_rows($result) > 0) {
@@ -105,17 +109,21 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
                         </div>
                     </div>
                 </div>
-                <div class="ltn__pagination-area text-center">
-                    <div class="ltn__pagination">
-                        <ul>
-                            <!-- <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li> -->
-                            <li><a href="/shop">1</a></li>
-                            <li><a href="./shop?page=20">2</a></li>
-                            <li><a href="./shop?page=40">3</a></li>
-                            <!-- <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li> -->
-                        </ul>
+                <?php
+                if (!isset($_GET['search'])) {
+                    ?>
+                    <div class="ltn__pagination-area text-center">
+                        <div class="ltn__pagination">
+                            <ul>
+                                <li><a href="/shop">1</a></li>
+                                <li><a href="./shop?page=20">2</a></li>
+                                <li><a href="./shop?page=40">3</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                    <?php                                
+                }
+                ?>
             </div>
         </div>
     </div>
